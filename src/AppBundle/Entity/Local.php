@@ -36,77 +36,91 @@ class Local
     /**
      * @var integer
      *
-     * @ORM\Column(name="nivel", type="integer")
+     * @ORM\Column(name="nivel", type="integer", nullable=true)
      */
     private $nivel;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="local", type="string", length=20)
+     * @ORM\Column(name="local", type="string", length=20, nullable=true)
      */
     private $local;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="telefono", type="string", length=50)
+     * @ORM\Column(name="telefono", type="string", length=50, nullable=true)
      */
     private $telefono;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="horario", type="string", length=30)
+     * @ORM\Column(name="horario", type="string", length=30, nullable=true)
      */
     private $horario;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="logo", type="string", length=255)
+     * @ORM\Column(name="horario2", type="string", length=30, nullable=true)
+     */
+    private $horario2;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="logo", type="string", length=255, nullable=true)
      */
     private $logo;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="imagen", type="string", length=255)
+     * @ORM\Column(name="imagen", type="string", length=255, nullable=true)
      */
     private $imagen;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="nit", type="string", length=15)
+     * @ORM\Column(name="web", type="string", length=255, nullable=true)
+     */
+    private $web;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nit", type="string", length=15, nullable=true)
      */
     private $nit;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="arrendatario", type="string", length=255)
+     * @ORM\Column(name="arrendatario", type="string", length=255, nullable=true)
      */
     private $arrendatario;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="x", type="string", length=255)
+     * @ORM\Column(name="x", type="string", length=255, nullable=true)
      */
     private $x;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="y", type="string", length=255)
+     * @ORM\Column(name="y", type="string", length=255, nullable=true)
      */
     private $y;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="fecha_modificacion", type="datetime")
+     * @ORM\Column(name="fecha_modificacion", type="datetime", nullable=true)
      */
     private $fecha_modificacion;
 
@@ -273,6 +287,30 @@ class Local
     }
 
     /**
+     * Set horario2
+     *
+     * @param string $horario2
+     *
+     * @return Local
+     */
+    public function setHorario2($horario2)
+    {
+        $this->horario2 = $horario2;
+
+        return $this;
+    }
+
+    /**
+     * Get horario2
+     *
+     * @return string
+     */
+    public function getHorario2()
+    {
+        return $this->horario2;
+    }
+
+    /**
      * Set logo
      *
      * @param string $logo
@@ -294,6 +332,30 @@ class Local
     public function getLogo()
     {
         return $this->logo;
+    }
+
+    /**
+     * Set web
+     *
+     * @param string $web
+     *
+     * @return Local
+     */
+    public function setWeb($web)
+    {
+        $this->web = $web;
+
+        return $this;
+    }
+
+    /**
+     * Get web
+     *
+     * @return string
+     */
+    public function getWeb()
+    {
+        return $this->web;
     }
 
     /**
