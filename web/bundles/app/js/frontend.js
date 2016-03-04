@@ -1,6 +1,7 @@
 url_app = document.getElementById("path").value;
 
 url_video = "http://127.0.0.1/totemRMCPortal80/web";
+url_video = "http://127.0.0.1/RMC/totemRMCPortal80/web";
 
 //document.oncontextmenu = function(){return false}
 
@@ -207,14 +208,14 @@ function restaurarVideo(){
 	//$('#divVideo').jQueryTween({ to: { translate: { y: '200%' } }, yoyo: false });
 	$('#Video1').tween({
 	   left:{
-	      start: 20,
+	      start: 0,
 	      stop: 0,
 	      time: 0,
 	      duration: 1,
 	      units: 'vw'
 	   },
 	   width:{
-	      start: 20,
+	      start: 40,
 	      stop: 100,
 	      time: 0,
 	      units: 'vw',
@@ -257,14 +258,14 @@ function minimizarVideo(){
 		$('#Video1').tween({
 		   left:{
 		      start: 5,
-		      stop: 20,
+		      stop: 0,
 		      time: 0,
 		      duration: 1,
 		      units: 'vw'
 		   },
 		   width:{
 		      start: 90,
-		      stop: 20,
+		      stop: 40,
 		      time: 0,
 		      units: 'vw',
 		      duration: 1,

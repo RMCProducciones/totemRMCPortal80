@@ -51,13 +51,13 @@ video{position: fixed; bottom: 0%; left: 0%; width:100vw; height: auto; z-index:
 
 .imagen img{ width: 100%;}
 
-.titulo-vertical { position: absolute; top: 60vw; left: -16vw; font-family: 'Trebuchet MS'; font-size: 14vmin; color: rgb(255, 255, 255); 
+.titulo-vertical { position: absolute; top: 40vw; left: -16vw; font-family: 'Trebuchet MS'; font-size: 14vmin; color: rgb(255, 255, 255); 
 	-moz-transform: rotate(-90deg);  /* Firefox */
   	-o-transform: rotate(-90deg);  /* Opera */
    	-webkit-transform: rotate(-90deg);  /* Safari y Chrome */ 
    	z-index: 10;
    }
-.titulo-vertical-icono { position: absolute; top: 120vw; left: 2vw; width:16vw; height: auto;}
+.titulo-vertical-icono { position: absolute; top: 80vw; left: 2vw; width:16vw; height: auto;}
 
 
 .titulo-horizontal { position: absolute; top: 3vw; left: 35vw; font-family: 'Trebuchet MS'; font-size: 10vmin; color: #fff; z-index: 10;}
@@ -68,7 +68,7 @@ video{position: fixed; bottom: 0%; left: 0%; width:100vw; height: auto; z-index:
 .t2 { margin-top: 5vw; margin-left: 2vw; font-family: 'Trebuchet MS'; font-size: 4vmin; color: #fff; }
 .t3 { margin-top: 5vw; margin-left: 2vw; font-family: 'Trebuchet MS'; font-size: 3vmin; color: #fff; }
 
-.niveles-col2{ position: absolute; top: 15vw; left: 20vw; width:20vw; height: 74vh; overflow: hidden; }
+.niveles-col2{ position: absolute; top: 15vw; left: 20vw; width:20vw; height: 50vh; overflow: hidden; }
 
 .niveles-col2 a { float: left; width: 100%; height: 33%; font-family: 'Trebuchet MS'; text-decoration: none; font-size: 3vmin; color: rgb(35, 120, 185);}
 .niveles-col2 .active{color: rgb(255, 255, 255);}
@@ -110,8 +110,8 @@ video{position: fixed; bottom: 0%; left: 0%; width:100vw; height: auto; z-index:
 
 #ubicacion {position: absolute; width: 8vw; height: auto;}
 
-.cartelera-col2{ position: absolute; top: 0vw; right: 2vw; width: 70vw; height: 74vh; color: #1F8CBA; font-family: 'Trebuchet MS'; font-size: 1.4vmin; overflow: auto; }
-.cartelera-titulo-vertical { position: absolute; top: 60vw; left: -26vw; font-family: 'Trebuchet MS'; font-size: 14vmin; color: rgb(255, 255, 255); 
+.cartelera-col2{ position: absolute; top: 0vw; right: 2vw; width: 70vw; height: 62vh; color: #1F8CBA; font-family: 'Trebuchet MS'; font-size: 1.4vmin; overflow: auto; }
+.cartelera-titulo-vertical { position: absolute; top: 40vw; left: -22vw; font-family: 'Trebuchet MS'; font-size: 12vmin; color: rgb(255, 255, 255); 
 	-moz-transform: rotate(-90deg);  /* Firefox */
   	-o-transform: rotate(-90deg);  /* Opera */
    	-webkit-transform: rotate(-90deg);  /* Safari y Chrome */ 
@@ -121,14 +121,14 @@ video{position: fixed; bottom: 0%; left: 0%; width:100vw; height: auto; z-index:
 .t4 { margin-top: 0vw; margin-left: 2vw; font-family: 'Trebuchet MS'; font-size: 3vmin; }
 
 
-.noticias-titulo-vertical { position: absolute; top: 60vw; left: -18vw; font-family: 'Trebuchet MS'; font-size: 14vmin; color: rgb(255, 255, 255); 
+.noticias-titulo-vertical { position: absolute; top: 40vw; left: -18vw; font-family: 'Trebuchet MS'; font-size: 14vmin; color: rgb(255, 255, 255); 
 	-moz-transform: rotate(-90deg);  /* Firefox */
   	-o-transform: rotate(-90deg);  /* Opera */
    	-webkit-transform: rotate(-90deg);  /* Safari y Chrome */ 
    	z-index: 10;
    }
 
-.promociones-titulo-vertical { position: absolute; top: 70vw; left: -28vw; font-family: 'Trebuchet MS'; font-size: 12vmin; color: rgb(255, 255, 255); 
+.promociones-titulo-vertical { position: absolute; top: 45vw; left: -22vw; font-family: 'Trebuchet MS'; font-size: 10vmin; color: rgb(255, 255, 255); 
 	-moz-transform: rotate(-90deg);  /* Firefox */
   	-o-transform: rotate(-90deg);  /* Opera */
    	-webkit-transform: rotate(-90deg);  /* Safari y Chrome */ 
