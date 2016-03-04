@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.0.2
+-- version 4.5.1
 -- http://www.phpmyadmin.net
 --
--- Servidor: localhost
--- Tiempo de generación: 20-11-2015 a las 00:08:30
--- Versión del servidor: 10.0.17-MariaDB
--- Versión de PHP: 5.6.14
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 04-03-2016 a las 17:20:00
+-- Versión del servidor: 10.1.9-MariaDB
+-- Versión de PHP: 5.6.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `totem`
+-- Base de datos: `ccportal80`
 --
 
 -- --------------------------------------------------------
@@ -26,7 +26,6 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `administrador`
 --
 
-DROP TABLE IF EXISTS `administrador`;
 CREATE TABLE `administrador` (
   `id` int(11) NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -42,9 +41,6 @@ CREATE TABLE `administrador` (
 --
 -- Estructura de tabla para la tabla `categoria`
 --
-DROP TABLE IF EXISTS `local`;
-DROP TABLE IF EXISTS `categoria`;
-
 
 CREATE TABLE `categoria` (
   `id` int(11) NOT NULL,
@@ -96,7 +92,6 @@ INSERT INTO `categoria` (`id`, `nombre`, `fecha_creacion`) VALUES
 -- Estructura de tabla para la tabla `local`
 --
 
-
 CREATE TABLE `local` (
   `id` int(11) NOT NULL,
   `categoria_id` int(11) DEFAULT NULL,
@@ -129,7 +124,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (5, 19, 'CENTRO DE NUTRICION HERBALLIFE', 0, 'N0-007', '311 258 47 58', 'L-S 8:00 D-F 11:00', 'L-S 20:00 D-F 19:00', 'centro_de_nutricion_herbalife.jpg', 'herbaliffe.jpg', 'http://www.herbalife.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (6, 20, 'SAO', 1, 'N1-002', '311 853 01 37', '-', '-', 'sao.jpg', 'sao.jpg', 'http://olimpica.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (7, 26, 'DOMÉNICO', 1, 'N1-010', '442 82 50', 'L-S10:30 D-F 11:00', 'L-S 20:30 D-F19:00', 'domenico.jpg', 'domenico.jpg', 'www.domenico.com.co', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(9, 28, 'VITOS SHOES', 1, 'N1-013', '318 460 62 02', 'L-V10:30 SDF11:00', 'L-V 20:30 D-F 20:00', 'vitos_shoes.jpg', 'vitos_shoes.JPG', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(9, 32, 'VITOS SHOES', 1, 'N1-013', '318 460 62 02', 'L-V10:30 SDF11:00', 'L-V 20:30 D-F 20:00', 'vitos_shoes.jpg', 'vitos_shoes.JPG', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (10, 29, 'BANCO CAJA SOCIAL', 1, 'N1-014', NULL, NULL, NULL, 'banco_caja_social.jpg', 'banco_caja_social.jpg', 'https://www.bancocajasocial.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (11, 20, 'TEMPUS JOYERIA', 1, 'N1-017', '313 658 43 85', 'L-S 10:30 D-F 11:00', 'L-S 20:00 D-F 19:00', 'tempus_joyeria.jpg', 'tempus.jpg', 'www.willyjhons.com', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (12, 13, 'DISPONIBLE', 1, 'N1-018', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -164,9 +159,9 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (42, 11, 'CLARO', 1, 'N1-068', '314 393 91 32', 'L-S 09 :00 D-F 10:00', 'L-S 20:00 D-F 19:00', 'claro.jpg', 'claro.jpg', 'http://www.claro.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (43, 32, 'SPRING STEP', 1, 'N1-070', '310 227 78 48', 'D-D 10:00', 'D-D 21:00', 'spring_step.jpg', NULL, 'http://www.springstep.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (44, 27, 'ARMI PRONTO B-KUL KOAJ', 1, 'N1-075', '321 429 20 53', 'L-D 10:00', '22:00', 'armi_pronto_bkul_koaj.jpg', 'armi_pronto_bkul.jpg', 'http://koaj.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(45, 27, 'CAMISERIA EUROPEA', 1, 'N1-080', '313 2O2 47 87', 'L-S 10:30 D-F 12:00', 'L-S 2O:30 D-F 19:00', 'camiseria_europea.jpg', 'camiseria_europea.jpg', 'http://camiseriaeuropea.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(45, 26, 'CAMISERIA EUROPEA', 1, 'N1-080', '313 2O2 47 87', 'L-S 10:30 D-F 12:00', 'L-S 2O:30 D-F 19:00', 'camiseria_europea.jpg', 'camiseria_europea.jpg', 'http://camiseriaeuropea.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (46, 32, 'SHOKER', 1, 'N1-081', '312 321 69 20', NULL, NULL, 'shoker_calzado.jpg', 'shoker.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(47, 30, 'DAVIVIENDA', 1, 'N1-082', '321 469 87 24', 'L-V 09:00 S 10:00 AM', 'L-V 17:20 S 16:00', 'davivienda.jpg', 'davivienda.jpg', 'https://www.davivienda.com', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(47, 29, 'DAVIVIENDA', 1, 'N1-082', '321 469 87 24', 'L-V 09:00 S 10:00 AM', 'L-V 17:20 S 16:00', 'davivienda.jpg', 'davivienda.jpg', 'https://www.davivienda.com', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (48, 32, 'PAYLESS SHOES', 1, 'N1-084', '310 252 05 10', 'L-S 10:20 D-F 11:00', 'L-S 21:00 D-F 20:00', 'payless_shoes.jpg', 'payless.jpg', 'http://c2.paylesscolombia.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (49, 26, 'ARTURO CALLE', 1, 'N1-086', '435 09 00', 'L-S 10:30 D-F 11:00', 'L-S 21:00 D-F 20:00', 'arturo_calle.jpg', 'arturo_calle.jpg', 'http://www.arturocalle.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (50, 21, 'TOTTO', 1, 'N1-096', '321 343 98 52', 'L-S 10:00 F-D 11:00', 'L-V 21:00 F-D19:30', 'totto.jpg', 'totto.jpg', 'http://www.totto.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -174,12 +169,12 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (52, 2, 'OPTICAS GMO', 1, 'N1-100', '593 88 60 EXT 7254', 'L-V 10:00 D-F 11:00', 'L-V 21:00 F-D 20:00', 'optica_gmo.jpg', 'gmo.jpg', 'http://www.gmo.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (53, 32, 'BOSI BAMIBO', 1, 'N1-101', NULL, NULL, NULL, 'bosi_bambino.jpg', 'bosi_bambino.jpg', 'http://www.bosibambino.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (54, 32, 'SPORT LIFE', 1, 'N1-102', '310 851 98 88', 'D-D 09 :30', 'D-J 20:00 V-S 210:', 'sport_life.jpg', 'sport_life.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(55, 28, 'TOTTO TÚ', 1, 'N1-103', '315 453 85 18', 'L-V 10:00 D-F 11:00', 'L-J 20:00 F-D 19:30', 'totto_tu.jpg', 'totto_tu.jpg', 'http://www.tottotu.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(55, 21, 'TOTTO TÚ', 1, 'N1-103', '315 453 85 18', 'L-V 10:00 D-F 11:00', 'L-J 20:00 F-D 19:30', 'totto_tu.jpg', 'totto_tu.jpg', 'http://www.tottotu.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (56, 32, 'CALZADO NUEVA MODA', 1, 'N1-118', '311 473 32 32', 'D-D 10:00', 'D-D 21:00', 'calzado_nueva_moda.jpg', 'calzado_nueva_moda.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (57, 12, 'PERFUMES FACTORY', 1, 'N1-120', '315 668 39 78', 'L-S 11:20 D-F 11:00', 'L-S  20:00 D-F 19:00', 'perfumes_factory.jpg', 'perfumes_factory.jpg', 'http://www.perfumesfactory.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (58, 32, 'BOSI', 1, 'N1-122', '490 89  85', 'L-V 10:30 F-D 10:30', 'L-V 20:30 D-F 20:00', 'bosi.jpg', 'bosi.jpg', 'http://www.mybosi.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (59, 25, 'NAF NAF', 1, 'N1-125', '491 79 19', 'L-S 10:00 D-F 11:00', 'L-S 20:30 D-F 19:30', 'naf_naf.jpg', 'naf_naf.jpg', 'http://www.nafnaf.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(60, 29, 'BANCOLOMBIA (CAJERO)', 1, 'N1-128', NULL, NULL, NULL, 'bancolombia_cajero.jpg', 'bancolombia_cajero.jpg', 'http://www.grupobancolombia.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(60, 6, 'BANCOLOMBIA (CAJERO)', 1, 'N1-128', NULL, NULL, NULL, 'bancolombia_cajero.jpg', 'bancolombia_cajero.jpg', 'http://www.grupobancolombia.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (61, 20, 'PLATERIA', 1, 'N1-129', '310 628 15 33', 'L-M 08:00 M-F 11:00', 'L-S 20:30 D-F 19:00', 'plateria.jpg', 'plateria.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (62, 6, 'CITIBANK', 1, 'N1-130', NULL, NULL, NULL, 'citibank.jpg', 'citibank.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (63, 16, 'EVENTOS ANA MARIA SIERRA', 1, 'N1-131', '310 581 69 63', 'D-D 11:00 AM', 'D-D 19:00', 'eventos_ana_maria.jpg', 'ana_maria-sierra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -201,7 +196,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (80, 10, 'PORTAL CAFÉ', 2, 'N2-007', '8008740 - 319 4784890', '1:45 p.m.', 'L-V 21:00 pm S-D 01:00 am', 'portal_cafe_80.jpg', 'portal_cafe_80.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (81, 10, 'HELADOS WOODYS', 2, 'N2-008', '2291428 - 310 2456016', '11:30 a.m.', '8:30 p.m.', 'woodys.jpg', 'woodys_helados_de_yogurt.jpg', 'http://woodys.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (83, 29, 'PELUQUERIA MILAN ESTUDIO', 2, 'N2-013', '490 11 14 - 310 792 01 70', '10:00 a.m.', '21:00 -22:00', 'peluqueeria_milan_estudio.jpg', 'peluqueria.JPG', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(84, 29, 'VISSO OPTOMETRIA', 2, 'N2-014', '535 09 16 - 318 797 97 31', '11:00 a.m.', '20:00', 'visso_optometria.jpg', 'visso_optometria_profesional.jpg', 'http://www.visso.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(84, 2, 'VISSO OPTOMETRIA', 2, 'N2-014', '535 09 16 - 318 797 97 31', '11:00 a.m.', '20:00', 'visso_optometria.jpg', 'visso_optometria_profesional.jpg', 'http://www.visso.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (85, 13, 'DISPONIBLE', 2, 'N2-015', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (86, 12, 'COSMETIC SHOP', 2, 'N2-016', '434 66 87 - 317 368 99 26', '11:00 AM', '20:00', 'cosmetic_shop.jpg', 'cosmetic_shop.jpg', 'http://www.cosmeticshopc.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (88, 32, 'SHOKER', 2, 'N2-018', NULL, '10:00 a.m.', '21:00', 'shoker_calzado.jpg', 'shoker_calzado.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -388,7 +383,7 @@ ALTER TABLE `administrador`
 -- AUTO_INCREMENT de la tabla `categoria`
 --
 ALTER TABLE `categoria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 --
 -- AUTO_INCREMENT de la tabla `local`
 --
