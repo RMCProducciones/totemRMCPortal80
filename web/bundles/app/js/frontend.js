@@ -139,17 +139,17 @@ function ajustarVideo(){
 			numeroVideo=1;
 		
 			
-		var nombreVideo="totem";	
+		var nombreVideo="portal80";	
 		if(numeroVideo==1)
-			nombreVideo="totem";
+			nombreVideo="portal80";
 		if(numeroVideo==2)
-			nombreVideo="totem";
+			nombreVideo="portal80";
 		if(numeroVideo==3)
-			nombreVideo="totem";
+			nombreVideo="portal80";
 		if(numeroVideo==4)
-			nombreVideo="totem";
+			nombreVideo="portal80";
 		if(numeroVideo==5)
-			nombreVideo="totem";
+			nombreVideo="portal80";
 
 		var myVideo = document.createElement('video');
 		
