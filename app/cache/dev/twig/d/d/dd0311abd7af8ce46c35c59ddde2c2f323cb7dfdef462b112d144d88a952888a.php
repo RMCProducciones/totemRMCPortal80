@@ -15,8 +15,8 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_27fb2b14a2eaaa53f942ae215b99c6dff8a7d52650029e1e56d5c62af574ca43 = $this->env->getExtension("native_profiler");
-        $__internal_27fb2b14a2eaaa53f942ae215b99c6dff8a7d52650029e1e56d5c62af574ca43->enter($__internal_27fb2b14a2eaaa53f942ae215b99c6dff8a7d52650029e1e56d5c62af574ca43_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/cartelera.html.twig"));
+        $__internal_2453b27bb02edccef341c7bdbbb80c07deadcbf5c7a07658434fbc49a6133823 = $this->env->getExtension("native_profiler");
+        $__internal_2453b27bb02edccef341c7bdbbb80c07deadcbf5c7a07658434fbc49a6133823->enter($__internal_2453b27bb02edccef341c7bdbbb80c07deadcbf5c7a07658434fbc49a6133823_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/cartelera.html.twig"));
 
         // line 1
         echo "
@@ -43,7 +43,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">MI ABUELO ES UN PELIGRO</div><br><br>
 
 \t\t\t\t<div id=\"trailer1\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 17
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/MI-ABUELO-ES-UN-PELIGRO.mp4"), "html", null, true);
@@ -68,7 +68,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">MAD MAX: FURIA EN EL CAMINO</div><br><br>
 
 \t\t\t\t<div id=\"trailer2\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 36
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/MAD-MAX-FURIA-EN-EL-CAMINO.mp4"), "html", null, true);
@@ -90,7 +90,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">DIOSES DE EGIPTO</div><br><br>
 
 \t\t\t\t<div id=\"trailer3\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 52
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/DIOSES-DE-EGIPTO.mp4"), "html", null, true);
@@ -113,7 +113,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">CÓMO SER SOLTERA</div><br><br>
 
 \t\t\t\t<div id=\"trailer4\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 69
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/CÓMO-SER-SOLTERA.mp4"), "html", null, true);
@@ -135,7 +135,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">EL ABRAZO DE LA SERPIENTE</div><br><br>
 
 \t\t\t\t<div id=\"trailer5\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 85
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/abrazo-serpiente.mp4"), "html", null, true);
@@ -157,7 +157,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">LA SEMILLA DEL SILENCIO</div><br><br>
 
 \t\t\t\t<div id=\"trailer6\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 101
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/LA-SEMILLA-DEL-SILENCIO.mp4"), "html", null, true);
@@ -179,7 +179,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">13 HORAS: LOS SOLDADOS SECRETOS DE BENGAS</div><br><br>
 
 \t\t\t\t<div id=\"trailer7\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 117
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/13-HORAS.mp4"), "html", null, true);
@@ -201,7 +201,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">DRAGON NEST: GUERRERO DEL AMANECER</div><br><br>
 
 \t\t\t\t<div id=\"trailer8\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 133
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/DRAGON-NEST.mp4"), "html", null, true);
@@ -223,7 +223,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">PREMONICIONES, EN LA MENTE DEL ASESINO</div><br><br>
 
 \t\t\t\t<div id=\"trailer9\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 149
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/PREMONICIONES.mp4"), "html", null, true);
@@ -245,7 +245,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">EL RENACIDO</div><br><br>
 
 \t\t\t\t<div id=\"trailer10\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 165
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/el-renacido.mp4"), "html", null, true);
@@ -267,7 +267,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">DEADPOOL</div><br><br>
 
 \t\t\t\t<div id=\"trailer11\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 181
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/DEADPOOL.mp4"), "html", null, true);
@@ -289,7 +289,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t\t\t\t<br><br><div class=\"t4\">ZOOTOPIA</div><br><br>
 
 \t\t\t\t<div id=\"trailer12\" style=\"display:none;\">
-\t\t\t\t\t<video style=\"width: 38vw; height: 25vw;\" controls>
+\t\t\t\t\t<video style=\"width: 35vw; height: 22vw;\" controls>
 \t\t\t\t\t  <source src=\"";
         // line 197
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/uploads/cartelera/videos/ZOOTOPIA.mp4"), "html", null, true);
@@ -309,7 +309,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 \t   
 \t";
         
-        $__internal_27fb2b14a2eaaa53f942ae215b99c6dff8a7d52650029e1e56d5c62af574ca43->leave($__internal_27fb2b14a2eaaa53f942ae215b99c6dff8a7d52650029e1e56d5c62af574ca43_prof);
+        $__internal_2453b27bb02edccef341c7bdbbb80c07deadcbf5c7a07658434fbc49a6133823->leave($__internal_2453b27bb02edccef341c7bdbbb80c07deadcbf5c7a07658434fbc49a6133823_prof);
 
     }
 
@@ -343,7 +343,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">MI ABUELO ES UN PELIGRO</div><br><br>*/
 /* */
 /* 				<div id="trailer1" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/MI-ABUELO-ES-UN-PELIGRO.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -362,7 +362,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">MAD MAX: FURIA EN EL CAMINO</div><br><br>*/
 /* */
 /* 				<div id="trailer2" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/MAD-MAX-FURIA-EN-EL-CAMINO.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -378,7 +378,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">DIOSES DE EGIPTO</div><br><br>*/
 /* */
 /* 				<div id="trailer3" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/DIOSES-DE-EGIPTO.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -395,7 +395,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">CÓMO SER SOLTERA</div><br><br>*/
 /* */
 /* 				<div id="trailer4" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/CÓMO-SER-SOLTERA.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -411,7 +411,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">EL ABRAZO DE LA SERPIENTE</div><br><br>*/
 /* */
 /* 				<div id="trailer5" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/abrazo-serpiente.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -427,7 +427,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">LA SEMILLA DEL SILENCIO</div><br><br>*/
 /* */
 /* 				<div id="trailer6" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/LA-SEMILLA-DEL-SILENCIO.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -443,7 +443,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">13 HORAS: LOS SOLDADOS SECRETOS DE BENGAS</div><br><br>*/
 /* */
 /* 				<div id="trailer7" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/13-HORAS.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -459,7 +459,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">DRAGON NEST: GUERRERO DEL AMANECER</div><br><br>*/
 /* */
 /* 				<div id="trailer8" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/DRAGON-NEST.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -475,7 +475,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">PREMONICIONES, EN LA MENTE DEL ASESINO</div><br><br>*/
 /* */
 /* 				<div id="trailer9" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/PREMONICIONES.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -491,7 +491,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">EL RENACIDO</div><br><br>*/
 /* */
 /* 				<div id="trailer10" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/el-renacido.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -507,7 +507,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">DEADPOOL</div><br><br>*/
 /* */
 /* 				<div id="trailer11" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/DEADPOOL.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
@@ -523,7 +523,7 @@ class __TwigTemplate_ff4ce74d696d3a1fe4901d6dce892717cc5e916e74eb061a128313fb595
 /* 				<br><br><div class="t4">ZOOTOPIA</div><br><br>*/
 /* */
 /* 				<div id="trailer12" style="display:none;">*/
-/* 					<video style="width: 38vw; height: 25vw;" controls>*/
+/* 					<video style="width: 35vw; height: 22vw;" controls>*/
 /* 					  <source src="{{ asset('bundles/app/uploads/cartelera/videos/ZOOTOPIA.mp4') }}" type="video/mp4">*/
 /* 					</video>*/
 /* 				</div>*/
