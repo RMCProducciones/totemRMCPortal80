@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /Applications/XAMPP/xamppfiles/htdocs/RMC/totemRMCportal80/app/config/routing_dev.yml
+    resource: 'C:\xampp\htdocs\totemRMCPortal80\app/config/routing_dev.yml'
