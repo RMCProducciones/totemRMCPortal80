@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-03-2016 a las 18:42:41
+-- Tiempo de generación: 17-03-2016 a las 21:47:50
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -333,20 +333,20 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (235, 10, 'BIG QATE', 3, 'N3-050', 'Remodelacion', 'Remodelacion', 'Remodelacion', 'big_quate.jpg', 'big_qate.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (236, 13, 'DISPONIBLE', 3, 'N3-051', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (237, 1, 'YAMILE HUMAR', 3, 'N3-052', '3404839 - 311 4490874', '11:00 a.m.', '8:30 p.m.', 'yamile_humar.jpg', 'tienda_naturista.jpg', 'http://cosmeticoshumar.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(238, 33, 'DECAMERON', 1, 'N1-K01', NULL, NULL, NULL, 'decameron.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(239, 33, 'KIA', 1, 'N1-K02', NULL, NULL, NULL, 'kia.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(240, 33, 'ON VACATION', 1, 'N1-K03', NULL, NULL, NULL, 'on_vacation.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(241, 33, 'HONDA', 1, 'N1-K04', NULL, NULL, NULL, 'honda.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(242, 33, 'AVIANCA', 1, 'N1-K05', NULL, NULL, NULL, 'avianca.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(243, 33, 'ETB', 1, 'N1-K06', NULL, NULL, NULL, 'etb.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(244, 33, 'RENAULT', 1, 'N1-K07', NULL, NULL, NULL, 'renault.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(245, 33, 'CHEVIPLAN', 1, 'N1-K08', NULL, NULL, NULL, 'cheviplan.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(246, 33, 'VIRGIN MOBILE', 1, 'N1-K09', NULL, NULL, NULL, 'virgin_mobile.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(247, 33, 'MAYBELLINE', 1, 'N1-K10', NULL, NULL, NULL, 'maybelline.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(248, 33, 'AVIATUR', 1, 'N1-K11', NULL, NULL, NULL, 'aviatur.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00');
+(238, 33, 'DECAMERON', 1, 'N1-K01', NULL, NULL, NULL, 'decameron.jpg', 'decameron.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(239, 33, 'KIA', 1, 'N1-K02', NULL, NULL, NULL, 'kia.jpg', 'kia.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(240, 33, 'ON VACATION', 1, 'N1-K03', NULL, NULL, NULL, 'on_vacation.jpg', 'on_vacation.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(241, 33, 'HONDA', 1, 'N1-K04', NULL, NULL, NULL, 'honda.jpg', 'honda.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(242, 33, 'AVIANCA', 1, 'N1-K05', NULL, NULL, NULL, 'avianca.jpg', 'avianca.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(243, 33, 'ETB', 1, 'N1-K06', NULL, NULL, NULL, 'etb.jpg', 'etb.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(244, 33, 'RENAULT', 1, 'N1-K07', NULL, NULL, NULL, 'renault.jpg', 'renault.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(245, 33, 'CHEVIPLAN', 1, 'N1-K08', NULL, NULL, NULL, 'cheviplan.jpg', 'cheviplan.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(246, 33, 'VIRGIN MOBILE', 1, 'N1-K09', NULL, NULL, NULL, 'virgin_mobile.jpg', 'virgin_mobile.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(247, 33, 'MAYBELLINE', 1, 'N1-K10', NULL, NULL, NULL, 'maybelline.jpg', 'maybelline.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(248, 33, 'AVIATUR', 1, 'N1-K11', NULL, NULL, NULL, 'aviatur.jpg', 'aviatur.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00');
 
 --
 -- Índices para tablas volcadas
