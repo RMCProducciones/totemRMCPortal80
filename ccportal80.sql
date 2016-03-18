@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-03-2016 a las 21:47:50
+-- Tiempo de generación: 18-03-2016 a las 21:54:38
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -237,7 +237,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (129, 13, 'DISPONIBLE', 2, 'N2-069', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (131, 11, 'TELEFONICA MOVISTAR', 2, 'N2-071', '536 40 23 - 315 206 13 76', '11:00 a.m.', '20:00', 'telefonica_movistar.jpg', 'movistar.jpg', 'http://www.movistar.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (132, 13, 'DISPONIBLE', 2, 'N2-072', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(133, 6, 'BANCO DE BOGOTA', 2, 'N2-073/076', '228 39 86 - 321 915 04 03', 'L-V 09:00 S 9:30 AM', '15:30', 'banco_de_bogota.jpg', 'banco_de_bogota.jpg', 'https://www.bancodebogota.com', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(133, 6, 'BANCO DE BOGOTA', 2, 'N2-073/076', '228 39 86 - 321 915 04 03', 'L-V 09:00 S 10:00 V.A 5:00', 'L-V 15:30  S 16:00   V.A 19:00', 'banco_de_bogota.jpg', 'banco_de_bogota.jpg', 'https://www.bancodebogota.com', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (134, 32, 'CALZADO DONELLA', 2, 'N2-077', '228 22 48', '10:00 a.m.', '21:00', 'calzado_donella.jpg', 'calzado_donella.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (135, 10, 'MCDONALD`S POSTRES', 2, 'N2-078', '311 238 96 84', '9:00 a.m.', '21:30', 'mc_donalds.jpg', 'mc_donalds_postres.jpg', 'http://www.mcdonalds.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (136, 10, 'OMA', 2, 'N2-079/80', '311445 24 14', '7:00 a.m.', '22:00', 'oma.jpg', 'oma_cafe.jpg', 'http://www.cafeoma.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
