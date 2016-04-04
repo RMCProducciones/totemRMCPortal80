@@ -7,7 +7,7 @@ url_video = "http://127.0.0.1/totemRMCPortal80/web";
 
 var modo = 1;
 
-var cuenta = 121;
+var cuenta = 5121;
 var cuentaRecarga = 1800;
 setTimeout("regresivo();", 1000);
 
@@ -26,7 +26,7 @@ function regresivo() {
 }
 
 function resetCuenta(){
-	cuenta = 121;
+	cuenta = 5121;
 }
 
 function ajustarVideo(){

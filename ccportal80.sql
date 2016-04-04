@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-03-2016 a las 21:54:38
+-- Tiempo de generación: 22-03-2016 a las 15:52:12
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -164,7 +164,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (48, 32, 'PAYLESS SHOES', 1, 'N1-084', '310 252 05 10', 'L-S 10:20 D-F 11:00', 'L-S 21:00 D-F 20:00', 'payless_shoes.jpg', 'payless.jpg', 'http://c2.paylesscolombia.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (49, 26, 'ARTURO CALLE', 1, 'N1-086', '435 09 00', 'L-S 10:30 D-F 11:00', 'L-S 21:00 D-F 20:00', 'arturo_calle.jpg', 'arturo_calle.jpg', 'http://www.arturocalle.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (50, 20, 'TOTTO', 1, 'N1-096', '321 343 98 52', 'L-S 10:00 F-D 11:00', 'L-V 21:00 F-D19:30', 'totto.jpg', 'totto.jpg', 'http://www.totto.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(51, 25, 'YAX YAX', 1, 'N1-099', '310 7610751', 'L-S 11:00 D-F 11:30', 'L-S 20:00 D-F 19:00', 'yax.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(51, 6, 'Av Villas', 1, 'N1-054-N1-056', '3363199', 'L-V 09:00 S 10:00', 'L-V 20:00 S 16:00', 'avvillas.jpg', 'avvillas.jpg', 'www.avvillas.com.co', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (52, 2, 'OPTICAS GMO', 1, 'N1-100', '593 88 60 EXT 7254', 'L-V 10:00 D-F 11:00', 'L-V 21:00 F-D 20:00', 'optica_gmo.jpg', 'gmo.jpg', 'http://www.gmo.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (53, 32, 'BOSI BAMIBO', 1, 'N1-101', NULL, NULL, NULL, 'bosi_bambino.jpg', 'bosi_bambino.jpg', 'http://www.bosibambino.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (54, 32, 'SPORT LIFE', 1, 'N1-102', '310 851 98 88', 'D-D 09 :30', 'D-J 20:00 V-S 210:', 'sport_life.jpg', 'sport_life.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -346,7 +346,9 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (248, 33, 'AVIATUR', 1, 'N1-K11', NULL, NULL, NULL, 'aviatur.jpg', 'aviatur.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00');
+(251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(252, 23, 'SANTANA', 1, 'N1-102', '7039728', '11:00 ', '21:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
+(253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, NULL, NULL, '2016-03-22 00:00:00', '2016-03-22 00:00:00');
 
 --
 -- Índices para tablas volcadas
@@ -389,7 +391,7 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT de la tabla `local`
 --
 ALTER TABLE `local`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=252;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=254;
 --
 -- Restricciones para tablas volcadas
 --
