@@ -406,6 +406,11 @@ function mostrarTrailer(numero){
 	$('#trailer'+numero).show();
 }
 
+function mostrarPromocion(numero){
+	resetCuenta();	
+	$('#promocion'+numero).show();
+	//$('#texto'+numero).hide();
+}
 
 
 
