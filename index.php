@@ -1,4 +1,4 @@
 <?php
 
-	header("location: /tintal-plaza/web");  
+	header("location: /cc/portal80/web");  
 	exit; 
