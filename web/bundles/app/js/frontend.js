@@ -1,7 +1,7 @@
 url_app = document.getElementById("path").value;
 
 url_video = "http://127.0.0.1/totemRMCPortal80/web";
-url_video = "http://127.0.0.1/RMC/totemRMCPortal80/web";
+//url_video = "http://127.0.0.1/RMC/totemRMCPortal80/web";
 
 //document.oncontextmenu = function(){return false}
 
