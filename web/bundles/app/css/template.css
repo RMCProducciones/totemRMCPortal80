@@ -63,10 +63,15 @@ video{position: fixed; bottom: 0%; left: 0%; width:100vw; height: auto; z-index:
 .titulo-horizontal { position: absolute; top: 3vw; left: 35vw; font-family: 'Trebuchet MS'; font-size: 10vmin; color: #fff; z-index: 10;}
 .titulo-horizontal-icono { position: absolute; top: 3vw; left: 20vw; width:12vw; height: auto;}
 
+.btnBusquedaABC { width: 54vw !important;}
+	.flip5 { background-color: rgba(255, 255, 255, 0.7) !important; }
+
 .niveles-col2-titulo{ position: absolute; top: 0vw; left: 20vw; width:20vw; height: 15vw; background-color: rgba(255, 255, 255, 0.4);}
 .niveles-col3-titulo{ position: absolute; top: 0vw; left: 44vw; width:56vw; height: 15vw; background-color: rgba(255, 255, 255, 0.4);}
 .t2 { margin-top: 5vw; margin-left: 2vw; font-family: 'Trebuchet MS'; font-size: 4vmin; color: #fff; }
 .t3 { margin-top: 5vw; margin-left: 2vw; font-family: 'Trebuchet MS'; font-size: 3vmin; color: #fff; }
+.abc { margin-top: 2vw; margin-left: 2vw;  }
+.abc a{ color: rgb(35, 120, 185); margin-left: 0.5vw; font-family: 'Trebuchet MS'; font-size: 2vmin; background: transparent;}
 
 .niveles-col2{ position: absolute; top: 15vw; left: 20vw; width:20vw; height: 50vh; overflow: hidden; }
 
