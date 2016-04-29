@@ -14,6 +14,9 @@
 		</div>
 
 	    <div class="categorias-col1">
+
+	    	<a class="flip5" href="javascript:abrirLocalesAbc('A');">BÚSQUEDA ALFABÉTICA</a>
+
 	    	{% set estiloFlip = 1 %}	
 	    	{% for categoria in categorias %}
 				<a class="flip{{estiloFlip}}" href="javascript:abrirLocales('{{categoria.id}}');">{{categoria.nombre}}</a>
@@ -27,7 +30,15 @@
 
 	    <div id="divLocales">
 
-		 	{% render controller('AppBundle:Default:locales', {'nivel': nivel, 'idCategoria': categoriaSeleccioanada.id}) %}
+	    	{% if categoriaSeleccioanada == "-1" %}
+
+		 		{% render controller('AppBundle:Default:localesAbc', {'nivel': nivel, 'letra': 'A'}) %}
+		 	
+		 	{% else %}
+		 	
+		 		{% render controller('AppBundle:Default:locales', {'nivel': nivel, 'idCategoria': categoriaSeleccioanada.id}) %}
+		 	
+		 	{% endif %}
 		 	
 		</div>
 	

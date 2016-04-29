@@ -58,7 +58,11 @@ class DefaultController extends Controller
             array(),
             array('nombre' => 'ASC')
         );
-        $categoriaSeleccioanada = $em->getRepository('AppBundle:Categoria')->findOneBy( array( 'id' => $idCategoria ) );
+        
+        if($idCategoria == "-1")
+            $categoriaSeleccioanada = "-1";
+        else
+            $categoriaSeleccioanada = $em->getRepository('AppBundle:Categoria')->findOneBy( array( 'id' => $idCategoria ) );
 
         $locales = $em->getRepository('AppBundle:Local')->findBy(
             array(
@@ -87,6 +91,23 @@ class DefaultController extends Controller
 
         return $this->render('default/locales.html.twig', array('nivel' => $nivel, 'categoria' => $categoria, 'locales' => $locales));
     }
+
+    /**
+     * @Route("/locales-abc/{nivel}/{letra}", name="localesAbc")
+     */
+    public function localesAbcAction($nivel, $letra)
+    {
+        $em = $this->getDoctrine()->getManager();
+        
+        $query = $em->createQuery("SELECT l FROM AppBundle:Local l WHERE l.nivel = :nivel and l.nombre like :letra ORDER BY l.nombre ASC")
+            ->setParameter('nivel', $nivel)
+            ->setParameter('letra', $letra.'%');
+      
+        $locales = $query->getResult();
+
+        return $this->render('default/locales-abc.html.twig', array('nivel' => $nivel, 'letra' => $letra, 'locales' => $locales));
+    }
+
 
     /**
      * @Route("/local/{nivel}/{idLocal}", name="local")

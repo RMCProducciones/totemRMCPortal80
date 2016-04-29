@@ -376,6 +376,13 @@ function abrirLocales(idCategoria){
 	abrir(url_app+"locales/"+nivel+"/"+idCategoria, "divLocales");
 }
 
+function abrirLocalesAbc(letra){
+	resetCuenta();
+	
+	var nivel = $('#nivel').val();
+	abrir(url_app+"locales-abc/"+nivel+"/"+letra, "divLocales");
+}
+
 function abrirLocal(idLocal){
 	resetCuenta();
 	
