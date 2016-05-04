@@ -33,7 +33,7 @@ body {
 	#divIconTouch img { width:100%;}
 
 
-#divVideo{ position: fixed; bottom: 0%; left: 0%; width:100vw; height: 92vh; z-index: 20 }
+#divVideo{ position: fixed; bottom: 0%; left: 10vh; width:100vw; height: 92vh; z-index: 20 }
 
 video{position: fixed; bottom: 0%; left: 0%; width:100vw; height: auto; z-index: 20; /*max-width:600px;*/ }
 .cartelera-texto video{position: relative;}

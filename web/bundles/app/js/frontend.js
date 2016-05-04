@@ -1,6 +1,6 @@
 url_app = document.getElementById("path").value;
 
-url_video = "http://127.0.0.1/totemRMCPortal80/web";
+url_video = "http://localhost:8080/totemRMCPortal80/web";
 //url_video = "http://127.0.0.1/RMC/totemRMCPortal80/web";
 
 //document.oncontextmenu = function(){return false}
@@ -52,7 +52,7 @@ function ajustarVideo(){
 		   },
 		    bottom:{
 		      start: 0,
-		      stop: 25,
+		      stop: 33,
 		      time: 0,
 		      units: 'vw',
 		      duration: 1,
