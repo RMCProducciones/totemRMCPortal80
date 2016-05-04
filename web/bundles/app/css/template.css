@@ -6,7 +6,7 @@ body {
 	overflow: auto;
 	font-family: 'Trebuchet MS';
 	background-image: url(../images/bg.jpg); background-size: 100% auto; background-repeat: no-repeat;
-	background-color: #fff;
+	background-color: #fff; 
 }
 
 #divSuperior{
