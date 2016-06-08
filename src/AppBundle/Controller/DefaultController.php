@@ -17,6 +17,21 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig');
     }
 
+
+    private function registroAcceso($seccion, $nivel, $categoria, $local){
+
+        $archivo = 'C:/xampp/htdocs/accesos-'.date("Y-m").'.html';
+
+        $fp = fopen($archivo, "a");
+        if($fp){
+            //echo "--";
+            $string = "<tr><td>".date("Y-m-d H:i:s")."</td><td>".$seccion."</td><td>".$nivel."</td><td>".$local."</td></tr>";
+            $write = fputs($fp, $string);
+            fclose($fp);
+        }
+    }
+
+
     /**
      * @Route("/niveles/", name="niveles")
      */
