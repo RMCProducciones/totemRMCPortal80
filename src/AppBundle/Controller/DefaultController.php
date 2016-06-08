@@ -18,14 +18,14 @@ class DefaultController extends Controller
     }
 
 
-    private function registroAcceso($seccion, $nivel, $categoria, $local){
+    private function registroAcceso($seccion, $nivel = "", $categoria = "", $local = ""){
 
         $archivo = 'C:/xampp/htdocs/accesos-'.date("Y-m").'.html';
 
         $fp = fopen($archivo, "a");
         if($fp){
             //echo "--";
-            $string = "<tr><td>".date("Y-m-d H:i:s")."</td><td>".$seccion."</td><td>".$nivel."</td><td>".$local."</td></tr>";
+            $string = "<tr><td>".date("Y-m-d H:i:s")."</td><td>".$seccion."</td><td>".$nivel."</td><td>".$categoria."</td><td>".$local."</td></tr>";
             $write = fputs($fp, $string);
             fclose($fp);
         }
@@ -37,6 +37,8 @@ class DefaultController extends Controller
      */
     public function nivelesAction()
     {
+        self::registroAcceso("Tienda");
+
         return $this->render('default/niveles.html.twig');
     }
 
@@ -46,6 +48,8 @@ class DefaultController extends Controller
      */
     public function categoriasNivelAction($nivel)
     {
+        self::registroAcceso("Tienda", "Nivel ".$nivel);
+
         $em = $this->getDoctrine()->getManager();
 
         $query = $em->createQuery(
@@ -67,7 +71,8 @@ class DefaultController extends Controller
      * @Route("/categorias/{nivel}/{idCategoria}", name="categorias")
      */
     public function categoriasAction($nivel, $idCategoria)
-    {
+    {   
+        
         $em = $this->getDoctrine()->getManager();
         $categorias = $em->getRepository('AppBundle:Categoria')->findBY(
             array(),
@@ -79,6 +84,11 @@ class DefaultController extends Controller
         else
             $categoriaSeleccioanada = $em->getRepository('AppBundle:Categoria')->findOneBy( array( 'id' => $idCategoria ) );
 
+        $nombreCat = $em->getRepository('AppBundle:Categoria')->findOneBy(
+            array('id' => $idCategoria)
+        );
+
+        self::registroAcceso("Tienda", "Nivel ".$nivel, "Categoria: ".$nombreCat->getNombre());
         $locales = $em->getRepository('AppBundle:Local')->findBy(
             array(
                 'nivel' => $nivel,
@@ -103,6 +113,8 @@ class DefaultController extends Controller
             'categoria' => $categoria
         ),
             array('nombre' => 'ASC'));
+
+
 
         return $this->render('default/locales.html.twig', array('nivel' => $nivel, 'categoria' => $categoria, 'locales' => $locales));
     }
@@ -130,10 +142,18 @@ class DefaultController extends Controller
     public function localAction($nivel, $idLocal)
     {
         $em = $this->getDoctrine()->getManager();
+
+        $nombreLoc = $em->getRepository('AppBundle:Local')->findOneBy(
+            array('id' => $idLocal)
+        );
+
+         self::registroAcceso("Tienda", "Nivel ".$nivel,"", "Local: ".$nombreLoc->getNombre());
  
         $local = $em->getRepository('AppBundle:Local')->findOneBy(array(
             'id' => $idLocal
         ));
+
+       
 
         return $this->render('default/local.html.twig', array('nivel' => $nivel, 'local' => $local));
     }
@@ -151,6 +171,7 @@ class DefaultController extends Controller
      */
     public function carteleraAction()
     {
+        self::registroAcceso("Entretenimiento");
 
         return $this->render('default/cartelera.html.twig');
     }
@@ -160,6 +181,8 @@ class DefaultController extends Controller
      */
     public function noticiasAction()
     {
+                self::registroAcceso("Noticias Y Eventos");
+
 
         return $this->render('default/noticias.html.twig');
     }
@@ -169,9 +192,11 @@ class DefaultController extends Controller
      */
     public function promocionesAction()
     {
+                self::registroAcceso("Ofertas Y Descuentos");
+
 
         return $this->render('default/promociones.html.twig');
     }
-
+   
     
 }
