@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-05-2016 a las 22:35:10
+-- Tiempo de generación: 28-06-2016 a las 09:20:21
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -140,7 +140,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (21, 18, 'COLCHONES ZABRA', 1, 'N1-032', '315 868 4334', 'D-D 11:00 AM', 'D-D 20:00', 'colchones_zabra.jpg\n', NULL, NULL, NULL, NULL, '76.4', '42.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (22, 23, 'OFFCORSS', 1, 'N1-033-055', NULL, 'L-S 11:00 D-F: 11:00', 'L-S 20:00 D-F 19:00', 'offcorss.jpg', 'offcorss.jpg', 'http://www.offcorss.com', NULL, NULL, NULL, NULL, '2016-05-26 00:00:00', '2016-05-26 00:00:00'),
 (23, 32, 'STAYPOL STORE', 1, 'N1-036', '310 259 20 43', 'L-S 10:00 D-F 10:30', 'L-S 20:00 D-F 19:00', 'staypol_store.jpg', 'stay_store.jpg', NULL, NULL, NULL, '78.4', '50.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(24, 23, 'DIANE Y GEORDI', 1, 'N1-037', '21 88 084', 'L-S 10:00 D-F11:00', 'L-S 20:30 D-F 20:00', 'diane_y_geordi.jpg', 'diane_&_geordi.jpg', 'http://www.dianeandgeordi.com/es/', NULL, NULL, '78.9', '52.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(24, 23, 'LAURA', 1, 'N1-037', '', '', '', '', '', '', NULL, NULL, '78.9', '52.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (25, 23, 'DIANE Y GEORDI', 1, 'N1-038', '22 88 084', 'L-S 10:00 D-F11:00', 'L-S 20:30 D-F 20:00', 'diane_y_geordi.jpg', NULL, 'http://www.dianeandgeordi.com/es/', NULL, NULL, '79.4', '54.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (26, 32, 'SPRING STEP', 1, 'N1-040', '320 3171 40 50', 'D-D 10:00', 'L-S 21:00 D-F 20:00', 'spring_step.jpg', 'spring_step.jpg', 'http://www.springstep.com/', NULL, NULL, '81.7', '61.18', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (27, 32, 'ECOCUEROS', 1, 'N1-045', '320 355 75 00', 'L-V 10:00 D-F 11:00', 'L-V 21 :00 D-F 20:00', 'ecocueros.jpg', 'ecocueros.jpg', NULL, NULL, NULL, '83.2', '68.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -183,7 +183,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (70, 10, 'AVENA CUBANA', 1, 'N1-138', '321 985 57 18', 'L-S 08:00 D-F 09:00', 'L-S 21:00 D-F 21:00', 'avena_cubana.jpg', 'avena_cubana.jpg', 'http://www.avenacubana.com/', NULL, NULL, '55.3', '74.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (71, 13, 'DISPONIBLE', 1, 'N1-139', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '57.4', '72.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (72, 25, 'LOLA PIJAMAS', 2, 'N2 010', '433 65 30 -', '11:00 a.m.', '20:30 -21: 30', 'lola_pijamas.jpg', NULL, NULL, NULL, NULL, '51.5', '29.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(73, 20, 'TV NOVEDADES', 2, 'N2  011', '320 811 44 79', '10:00 a.m.', '21:00', 'tv_novedades_tv.jpg', 'tv_novedades_tv.jpg', 'www.telovendo.com.co', NULL, NULL, '53.8', '29.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(73, 13, 'DISPONIBLE', 2, 'N2  011', '', '', '', '', '', '', NULL, NULL, '53.8', '29.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (74, 26, 'RATTMAN', 2, 'N2 125', '4915633 - 314 2618199', '10:30 a.m.', '20:30', 'rtm.jpg', NULL, NULL, NULL, NULL, '53.5', '54.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (75, 31, 'SAO', 2, 'N2-001', NULL, NULL, NULL, 'sao.jpg', 'sao_nivel_2.jpg', 'http://olimpica.com.co/', NULL, NULL, '41.4', '59.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (76, 10, 'POSTIGO', 2, 'N2-003', '2572573 - 3133021325', '2:00 p.m.', 'L-V 11:00 pm  S-D 02:00 am', 'postigo.jpg', 'postigo_cafe.jpg', NULL, NULL, NULL, '46.6', '43.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -193,7 +193,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (80, 10, 'PORTAL CAFÉ', 2, 'N2-007', '8008740 - 319 4784890', '1:45 p.m.', 'L-V 21:00 pm S-D 01:00 am', 'portal_cafe_80.jpg', 'portal_cafe_80.jpg', NULL, NULL, NULL, '49.2', '35.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (81, 10, 'HELADOS WOODYS', 2, 'N2-008', '2291428 - 310 2456016', '11:30 a.m.', '8:30 p.m.', 'woodys.jpg', 'woodys_helados_de_yogurt.jpg', 'http://woodys.com.co/', NULL, NULL, '49.5', '33.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (83, 12, 'PELUQUERIA MILAN ESTUDIO', 2, 'N2-013', '490 11 14 - 310 792 01 70', '10:00 a.m.', '21:00 -22:00', 'peluqueeria_milan_estudio.jpg', 'peluqueria.JPG', NULL, NULL, NULL, '56.3', '26.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(84, 2, 'VISSO OPTOMETRIA', 2, 'N2-014', '535 09 16 - 318 797 97 31', '11:00 a.m.', '20:00', 'visso_optometria.jpg', 'visso_optometria_profesional.jpg', 'http://www.visso.com.co/', NULL, NULL, '57.6', '25.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(84, 13, 'DISPONIBLE', 2, 'N2-014', '', '', '', '', '', '', NULL, NULL, '57.6', '25.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (85, 13, 'DISPONIBLE', 2, 'N2-015', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '58.8', '24.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (86, 12, 'COSMETIC SHOP', 2, 'N2-016', '434 66 87 - 317 368 99 26', '11:00 AM', '20:00', 'cosmetic_shop.jpg', 'cosmetic_shop.jpg', 'http://www.cosmeticshopc.com/', NULL, NULL, '60.2', '24.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (88, 32, 'SHOKER', 2, 'N2-018', NULL, '10:00 a.m.', '21:00', 'shoker_calzado.jpg', 'shoker_calzado.jpg', NULL, NULL, NULL, '61.5', '23.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -317,7 +317,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (216, 10, 'DON JEDIONDO', 3, 'N3-031', '491 79 90 - 320 246 09 15', '11:30', '21:00', 'don_jediondo.jpg', 'don_jediondo.jpg', 'http://www.donjediondo.com/', NULL, NULL, '44.6', '59.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (217, 10, 'TEMAKI', 3, 'N3-032', '863 78 80 - 300 693 52 49', '11:00 a.m.', '21:30', 'temaki.jpg', 'temaki_cocina_oriental.jpg', 'http://www.temaki.co/', NULL, NULL, '45.2', '57.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (218, 10, 'CARACOL ROJO', 3, 'N3-033', '491 78 42 - 310 704 05 55', '11:00 a.m.', '21:00', 'caracol_rojo.jpg', 'caracol_rojo.jpg', NULL, NULL, NULL, '45.8', '55.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(219, 10, 'ANDRES EXPRESS', 3, 'N3-034', '863 78 80 - 300 693 52 49', '11:00 a.m.', '21:30', 'andres_express.jpg', 'andres_express.jpg', 'http://www.andrescarnederes.com/es/', NULL, NULL, '46.6', '53.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(219, 10, 'KFC', 3, 'N3-034', '', '', '', 'kfc.jpg', 'kfc.jpg', '', NULL, NULL, '46.6', '53.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (221, 10, 'ENTRE FRUTAS Y CAFÉ', 3, 'N3-036', '318 665 38 62', '9:00', '21:00', 'entre_frutas_y_cafe .jpg', 'entre_frutas_y_cafe.jpg', NULL, NULL, NULL, '48.0', '49.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (222, 10, 'MAITÉ', 3, 'N3-037', '491 76 60 - 301 296 27 66', '10 :00am', '20:00', 'maite_pasteleria.jpg', 'maite_pasteleria.jpg', 'http://www.maitepasteleria.com/', NULL, NULL, '61.7', '30.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (223, 10, 'PICOS', 3, 'N3-038', '4906933 - 314 440 76 95', '10:00 a.m.', '22:00', 'picos_caffe.jpg', 'picos_cafe.jpg', NULL, NULL, NULL, '62.3', '32.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
