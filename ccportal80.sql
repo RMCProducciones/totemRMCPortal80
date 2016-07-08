@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-06-2016 a las 09:20:21
+-- Tiempo de generación: 08-07-2016 a las 14:06:33
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -151,6 +151,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (32, 25, 'XARA', 1, 'N1-052', '314 225 52 20', 'D-D 11:00 AM', 'L-S 20:00 D-F 19:00', 'xara.jpg', 'xara.jpg', NULL, NULL, NULL, '70.3', '79.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (34, 27, 'TICKET', 1, 'N1-057', '321 291 46 55', 'L-S 10:00', 'L-V 21:00 D-F 20:00', 'ticket.jpg', 'ticket.jpg', NULL, NULL, NULL, '61.7', '79.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (35, 27, 'CROQUET CLUB', 1, 'N1-058', '300 545 63 59', 'L -S 10:00 AM', 'L-V 21:00 D-F 20:00', 'croquet.jpg', 'croquet.jpg', NULL, NULL, NULL, '58.0', '79.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(36, NULL, 'ALPIE', 1, 'N1-059', NULL, NULL, NULL, 'alpie.jpg', 'alpie.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-07-08 00:00:00'),
 (37, 14, 'DROGUERIA ROSAS', 1, 'N1-062', '312 370 66 05', 'L-S 10:00 D-F 09:00', 'L-S 20.00 D-F 21.00', 'drogueria_rosas.jpg', 'droguerias_rosas.jpg', 'http://www.drogueriasrosas.com/', NULL, NULL, '54.9', '78.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (38, 32, 'AQUILES', 1, 'N1-063', '319 402 12 72', 'L-D 10:00', 'L-V 21:00 D-F 20:00', 'aquiles.jpg', 'aquiles.jpg', 'http://www.aquiles.com.co/', NULL, NULL, '53.5', '77.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (39, 32, 'BRAHMA FOOTWEAR', 1, 'N1-064', '319 233 80 60', 'L- S 10:00 D-F 11:00', 'L-J20:00 V-S21:00F19:00', 'brahma.jpg', 'brahma.jpg', 'http://www.brahmafootwear.com/', NULL, NULL, '51.6', '76.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -256,7 +257,8 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (150, 21, 'ADIDAS', 2, 'N2-100', '491 88 19 - 312 385 88 19', '10:30 a.m.', '20:00', 'adidas.jpg', 'adidas.jpg', 'http://www.adidas.co/', NULL, NULL, '75.2', '55.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (151, 22, 'MONSTRUOS', 2, 'N2-101', '491 59 83 -', '11:00 a.m.', '20 :30', 'mountros.jpg', 'monstruos.jpg', NULL, NULL, NULL, '76.0', '57.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (152, 25, 'EXCLUSIVE BOTTINE', 2, 'N2-102', '491 76 38 - 320 435 87 99', '10:00 a.m.', '20:00', NULL, 'exclusive_bottini.jpg', 'http://www.bylagordafabiola.com.co/', NULL, NULL, '76.5', '59.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(153, 32, 'AUTHORITY', 2, 'N2-103', '491 76 30 -', '10:00 a.m.', '21:00', 'authority.jpg', 'authority.jpg', NULL, NULL, NULL, '77.1', '61.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(153, 32, 'TUAN SPORT\n', 2, 'N2-103', '', '10:00 a.m.', '21:00', 'tuan.jpg', 'tuan.jpg', NULL, NULL, NULL, '77.1', '61.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(154, 21, 'MUNDIAL STORE', 2, 'N2-104', NULL, NULL, NULL, 'mundial.jpg', 'mundial.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-07-08 00:00:00'),
 (155, 12, 'STILE SHOP', 2, 'N2-105', NULL, '10:00 a.m.', '21:00', 'stile_shop.jpg', 'stile_sport_shop.jpg', 'http://www.stilesport.com/', NULL, NULL, '78.4', '69.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (156, 25, 'TEXTILES LATINOS', 2, 'N2-106', '22709 29 - 317 477 96 78', '10:30 a.m.', '20:00', 'textiles_latinos.jpg', 'textiles_latinos.jpg', 'http://www.textileslatinos.com.co/', NULL, NULL, '75.9', '70.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (157, 21, 'SPORT LIFE', 2, 'N2-107', '898 53 11 EXT 214', '10:00 a.m.', '21:00', 'sport_life.jpg', NULL, 'http://www.sportlife.com.co/', NULL, NULL, '73.4', '70.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
