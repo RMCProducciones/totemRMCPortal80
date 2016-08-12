@@ -88,7 +88,7 @@ class DefaultController extends Controller
             array('id' => $idCategoria)
         );
 
-        self::registroAcceso("Tienda", "Nivel ".$nivel, "Categoria: ".$nombreCat->getNombre());
+        self::registroAcceso("Tienda", "Nivel ".$nivel,"".$idCategoria);
         $locales = $em->getRepository('AppBundle:Local')->findBy(
             array(
                 'nivel' => $nivel,

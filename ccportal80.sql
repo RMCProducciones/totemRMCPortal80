@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-07-2016 a las 10:48:19
+-- Tiempo de generación: 11-08-2016 a las 16:08:26
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -180,9 +180,11 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (63, 16, 'EVENTOS ANA MARIA SIERRA', 1, 'N1-131', '310 581 69 63', 'D-D 11:00 AM', 'D-D 19:00', 'eventos_ana_maria.jpg', 'ana_maria-sierra.jpg', NULL, NULL, NULL, '67.1', '23.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (64, 10, 'DONUT FACTORY', 1, 'N1-132', '312 472 92 79', 'L-S 08:00 D-F11:00', 'L-S 21:00 D-F 19:00', 'donut_factory.jpg', 'donut_factory.jpg', 'http://www.donutfactory.com.co/', NULL, NULL, '69.5', '23.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (65, 12, 'EL PERFUMERO', 1, 'N1-133', '315 467 73 02', 'D-D 11:00 AM', 'L-V 20:00 D-F 19:00', 'el_perfumero.jpg', 'el-perfumero.jpg', 'http://www.elperfumero.com.co/', NULL, NULL, '74.2', '49.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(66, 10, 'VANNELA', 1, 'N1-134', NULL, NULL, NULL, 'vannela.jpg', 'vannela.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-07-29 00:00:00'),
 (68, 29, 'CHANCE PAGA TODO', 1, 'N1-136', '319 269 43 87', 'L-S 08:00 D-F 09:00', 'D-D 21:00', 'chance_paga_todo.jpg', 'chance_paga_todo.jpg', 'https://www.pagatodo.com.co/', NULL, NULL, '75.5', '75.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(69, 20, 'ZONA PHONE', 1, 'N1-137', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-07-29 00:00:00'),
 (70, 10, 'AVENA CUBANA', 1, 'N1-138', '321 985 57 18', 'L-S 08:00 D-F 09:00', 'L-S 21:00 D-F 21:00', 'avena_cubana.jpg', 'avena_cubana.jpg', 'http://www.avenacubana.com/', NULL, NULL, '55.3', '74.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(71, 13, 'DISPONIBLE', 1, 'N1-139', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '57.4', '72.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(71, 10, 'JOLLY RANCHER\n', 1, 'N1-139', NULL, NULL, NULL, 'jolly.jpg', 'jolly.jpg', NULL, NULL, NULL, '57.4', '72.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (72, 25, 'LOLA PIJAMAS', 2, 'N2 010', '433 65 30 -', '11:00 a.m.', '20:30 -21: 30', 'lola_pijamas.jpg', NULL, NULL, NULL, NULL, '51.5', '29.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (73, 13, 'DISPONIBLE', 2, 'N2  011', '', '', '', '', '', '', NULL, NULL, '53.8', '29.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (74, 26, 'RATTMAN', 2, 'N2 125', '4915633 - 314 2618199', '10:30 a.m.', '20:30', 'rtm.jpg', NULL, NULL, NULL, NULL, '53.5', '54.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -350,7 +352,8 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(252, 23, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
+(252, 23, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00');
+INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono`, `horario`, `horario2`, `logo`, `imagen`, `web`, `nit`, `arrendatario`, `x`, `y`, `fecha_modificacion`, `fecha_creacion`) VALUES
 (253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
 (254, 15, 'GAMER''S PARADAISE', 2, 'N2-027', NULL, 'L-S 11:00  D-F 11:00 ', 'L-S 20:00  D-F 19:00', 'gamers.jpg', 'gamers.jpg', NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
 
