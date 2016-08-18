@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-08-2016 a las 16:08:26
+-- Tiempo de generación: 16-08-2016 a las 12:15:47
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -228,8 +228,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (115, 27, 'KOBALTO', 2, 'N2-050', '433 44 66 - 310 465 45 50', '10:00 a.m.', '20:00', 'kobalto.jpg', 'kobalto.jpg', NULL, NULL, NULL, '74.8', '79.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (116, 28, 'NONO', 2, 'N2-052', '491 06 83 - 312 499 72 85', '10:30 a.m.', '20:30', 'nono.jpg', 'nono.jpg', 'http://tejidosnono.com', NULL, NULL, '72.7', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (117, 13, 'DISPONIBLE', 2, 'N2-053', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '70.8', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(119, 13, 'DISPONIBLE', 2, 'N2-055', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '69.1', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(120, 13, 'DISPONIBLE', 2, 'N2-056', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '66.9', '80.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(119, 11, 'AVANTEL', 2, 'N2-055', '3350350', '11:00 am', '21:00 ', 'avantel.jpg', 'avantel,jpg', 'www.avantel.co', NULL, NULL, '69.1', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (121, 32, 'CALZATODO', 2, 'N2-057', '491 77 00 - 311 829 05 76', '10:00 a.m.', '20:00', 'calzatodo.jpg', 'calzatodo.jpg', NULL, NULL, NULL, '63.4', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (122, 32, 'SPORT STATION', 2, 'N2-059', '440 74 58 - 316 783 28 77', '10:00 a.m.', '21:00', 'sport_station.jpg', 'sport_station.jpg', NULL, NULL, NULL, '61.1', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (123, 30, 'MARTI MARLO', 2, 'N2-060', '227 68 77 - 313 460 53 98', '11:00 a.m.', '20:30', 'marti_marlo.jpg', 'j-marti_marlo_joyeria.jpg', NULL, NULL, NULL, '56.6', '78.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -352,9 +351,9 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(252, 23, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00');
+(252, 23, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
+(253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00');
 INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono`, `horario`, `horario2`, `logo`, `imagen`, `web`, `nit`, `arrendatario`, `x`, `y`, `fecha_modificacion`, `fecha_creacion`) VALUES
-(253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
 (254, 15, 'GAMER''S PARADAISE', 2, 'N2-027', NULL, 'L-S 11:00  D-F 11:00 ', 'L-S 20:00  D-F 19:00', 'gamers.jpg', 'gamers.jpg', NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
 
 --

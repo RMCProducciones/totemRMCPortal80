@@ -321,6 +321,18 @@ function abrirCartelera(bajarVideo){
 	abrir(url_app+"cartelera", "divContenido");
 }
 
+function abrirPagina(bajarVideo){
+	resetCuenta();
+	
+	//$( "divVideo" ).html( "Next Step..." )
+	if(bajarVideo)
+		minimizarVideo();
+
+	//document.getElementById("divVideo").style.top = "120vw";
+
+	abrir(url_app+"pagina", "divContenido");
+}
+
 function abrirNoticias(bajarVideo){
 	resetCuenta();
 	
