@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-08-2016 a las 12:15:47
+-- Tiempo de generación: 19-08-2016 a las 14:48:52
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -228,7 +228,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (115, 27, 'KOBALTO', 2, 'N2-050', '433 44 66 - 310 465 45 50', '10:00 a.m.', '20:00', 'kobalto.jpg', 'kobalto.jpg', NULL, NULL, NULL, '74.8', '79.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (116, 28, 'NONO', 2, 'N2-052', '491 06 83 - 312 499 72 85', '10:30 a.m.', '20:30', 'nono.jpg', 'nono.jpg', 'http://tejidosnono.com', NULL, NULL, '72.7', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (117, 13, 'DISPONIBLE', 2, 'N2-053', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '70.8', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(119, 11, 'AVANTEL', 2, 'N2-055', '3350350', '11:00 am', '21:00 ', 'avantel.jpg', 'avantel,jpg', 'www.avantel.co', NULL, NULL, '69.1', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(119, 11, 'AVANTEL', 2, 'N2-055', '3350350', '11:00 am', '21:00 ', 'avantel.jpg', 'avantel.jpg', 'www.avantel.co', NULL, NULL, '69.1', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (121, 32, 'CALZATODO', 2, 'N2-057', '491 77 00 - 311 829 05 76', '10:00 a.m.', '20:00', 'calzatodo.jpg', 'calzatodo.jpg', NULL, NULL, NULL, '63.4', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (122, 32, 'SPORT STATION', 2, 'N2-059', '440 74 58 - 316 783 28 77', '10:00 a.m.', '21:00', 'sport_station.jpg', 'sport_station.jpg', NULL, NULL, NULL, '61.1', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (123, 30, 'MARTI MARLO', 2, 'N2-060', '227 68 77 - 313 460 53 98', '11:00 a.m.', '20:30', 'marti_marlo.jpg', 'j-marti_marlo_joyeria.jpg', NULL, NULL, NULL, '56.6', '78.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
