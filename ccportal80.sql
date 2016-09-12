@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-08-2016 a las 14:48:52
+-- Tiempo de generación: 12-09-2016 a las 16:47:00
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -129,7 +129,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (10, 6, 'BANCO CAJA SOCIAL', 1, 'N1-014', NULL, NULL, NULL, 'banco_caja_social.jpg', 'banco_caja_social.jpg', 'https://www.bancocajasocial.com/', NULL, NULL, '53.5', '34.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (11, 30, 'TEMPUS JOYERIA', 1, 'N1-017', '313 658 43 85', 'L-S 10:30 D-F 11:00', 'L-S 20:00 D-F 19:00', 'tempus_joyeria.jpg', 'tempus.jpg', 'www.willyjhons.com', NULL, NULL, '55.0', '30.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (12, 13, 'DISPONIBLE', 1, 'N1-018', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '55.7', '28.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(13, 13, 'DISPONIBLE', 1, 'N1-019', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '56.4', '26.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(13, 21, 'MUNDIAL STORE', 1, 'N1-019', '8051880', 'L-D 11:00 ', 'L-D 21:00', 'mundial.jpg', 'mundial.jpg', NULL, NULL, NULL, '56.4', '26.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (14, 6, 'BANCOLOMBIA', 1, 'N1-020', '315 388 36 50', 'L-V 09:00 S 10:00 AM', 'L-V 19:00 S 16:00', 'bancolombia.jpg', 'bancolombia.jpg', 'http://www.grupobancolombia.com/', NULL, NULL, '58.7', '22.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (15, 32, 'CALZADO JANINE\r\n', 1, 'N1-021', '320 818 93 07', 'D-D 10:00 ', 'D-D 21:00', 'calzado_janine.jpg\r\n', 'calzado_janine.jpg\r\n', NULL, NULL, 'Alexandra Espitia\r\n', '63.2', '20.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (16, 25, 'BESO DE COCO', 1, 'N1-023', '311 887 90 69', 'L-S 10:30 D-F11;20', 'L-S 21:00 D-F 20:00', 'beso_de_coco.jpg', 'beso_de_coco.jpg', 'www.besodecoco.com', NULL, NULL, '71.3', '23.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
