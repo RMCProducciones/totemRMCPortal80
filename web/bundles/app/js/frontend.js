@@ -265,7 +265,7 @@ function minimizarVideo(){
 		   },
 		   width:{
 		      start: 90,
-		      stop: 45,
+		      stop: 43,
 		      time: 0,
 		      units: 'vw',
 		      duration: 1,
