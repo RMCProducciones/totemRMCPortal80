@@ -285,7 +285,7 @@ function minimizarVideo(){
 		$('#iconos').tween({ 
 		   width:{
 		      start: 100,
-		      stop: 55,
+		      stop: 50,
 		      time: 0,
 		      units: 'vw',
 		      duration: 1,
