@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-09-2016 a las 16:47:00
+-- Tiempo de generación: 26-09-2016 a las 09:41:19
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -74,7 +74,6 @@ INSERT INTO `categoria` (`id`, `nombre`, `fecha_creacion`) VALUES
 (20, 'OTRAS TIENDAS', '2016-03-02 00:00:00'),
 (21, 'TIENDAS DEPORTIVAS', '2016-03-02 00:00:00'),
 (22, 'PAPELERIA, TARJETAS, REGALOS, NOVEDADES', '2016-03-02 00:00:00'),
-(23, 'ROPA  PARA LA FAMILIA', '2016-03-02 00:00:00'),
 (24, 'ROPA DE VERANO Y ACCESORIOS ', '2016-03-02 00:00:00'),
 (25, 'ROPA PARA DAMAS', '2016-03-02 00:00:00'),
 (26, 'ROPA PARA HOMBRES', '2016-03-02 00:00:00'),
@@ -134,14 +133,14 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (15, 32, 'CALZADO JANINE\r\n', 1, 'N1-021', '320 818 93 07', 'D-D 10:00 ', 'D-D 21:00', 'calzado_janine.jpg\r\n', 'calzado_janine.jpg\r\n', NULL, NULL, 'Alexandra Espitia\r\n', '63.2', '20.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (16, 25, 'BESO DE COCO', 1, 'N1-023', '311 887 90 69', 'L-S 10:30 D-F11;20', 'L-S 21:00 D-F 20:00', 'beso_de_coco.jpg', 'beso_de_coco.jpg', 'www.besodecoco.com', NULL, NULL, '71.3', '23.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (17, 12, 'SENTHIA', 1, 'N1-025', NULL, 'L-S 11:00   D-F 11:00', 'L-S 20:00   D-F 19:00', 'senthia.jpg', 'senthia.jpg', NULL, NULL, NULL, '72.7', '28.9', '2016-05-26 00:00:00', '2016-05-26 00:00:00'),
-(18, 27, 'HAWI STORE', 1, 'N1-026', '311 623 84 66', 'L-S 10:00 D-F 11:00', 'L-S 20:00 D-F 19:00', NULL, 'hawi_nivel1.jpg', NULL, NULL, NULL, '73.3', '30.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(18, 13, 'DISPONIBLE', 1, 'N1-026', NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, '73.3', '30.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (19, 25, 'STUDIO F', 1, 'N1-027', '304 617 43 02', 'L-S10:00 D-F 11:00', 'L-S 20:30 D-F 20:00', 'studio_f.jpg', 'studio_f.jpg', 'www.studiof.com.co', NULL, NULL, '73.9', '33.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (20, 27, 'SIDNEY', 1, 'N1-031', '321 996 77 40', 'L-S 10:00 D-F 11:00', '20:00', 'sidney.jpg', 'sidney.jpg', 'www.sidneyjeans.com', NULL, NULL, '75.9', '40.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (21, 18, 'COLCHONES ZABRA', 1, 'N1-032', '315 868 4334', 'D-D 11:00 AM', 'D-D 20:00', 'colchones_zabra.jpg\n', NULL, NULL, NULL, NULL, '76.4', '42.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(22, 23, 'OFFCORSS', 1, 'N1-033-035', NULL, 'L-S 11:00 D-F: 11:00', 'L-S 20:00 D-F 19:00', 'offcorss.jpg', 'offcorss.jpg', 'http://www.offcorss.com', NULL, NULL, '77.3', '46.5', '2016-05-26 00:00:00', '2016-05-26 00:00:00'),
+(22, 27, 'OFFCORSS', 1, 'N1-033-035', NULL, 'L-S 11:00 D-F: 11:00', 'L-S 20:00 D-F 19:00', 'offcorss.jpg', 'offcorss.jpg', 'http://www.offcorss.com', NULL, NULL, '77.3', '46.5', '2016-05-26 00:00:00', '2016-05-26 00:00:00'),
 (23, 32, 'STAYPOL STORE', 1, 'N1-036', '310 259 20 43', 'L-S 10:00 D-F 10:30', 'L-S 20:00 D-F 19:00', 'staypol_store.jpg', 'stay_store.jpg', NULL, NULL, NULL, '78.4', '50.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(24, 23, 'LAURA', 1, 'N1-037', '', '', '', '', '', '', NULL, NULL, '78.9', '52.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(25, 23, 'DIANE Y GEORDI', 1, 'N1-038', '22 88 084', 'L-S 10:00 D-F11:00', 'L-S 20:30 D-F 20:00', 'diane_y_geordi.jpg', NULL, 'http://www.dianeandgeordi.com/es/', NULL, NULL, '79.4', '54.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(24, 27, 'LAURA', 1, 'N1-037', '', '', '', '', '', '', NULL, NULL, '78.9', '52.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(25, 27, 'DIANE Y GEORDI', 1, 'N1-038', '22 88 084', 'L-S 10:00 D-F11:00', 'L-S 20:30 D-F 20:00', 'diane_y_geordi.jpg', NULL, 'http://www.dianeandgeordi.com/es/', NULL, NULL, '79.4', '54.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (26, 32, 'SPRING STEP', 1, 'N1-040', '320 3171 40 50', 'D-D 10:00', 'L-S 21:00 D-F 20:00', 'spring_step.jpg', 'spring_step.jpg', 'http://www.springstep.com/', NULL, NULL, '81.7', '61.18', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (27, 32, 'ECOCUEROS', 1, 'N1-045', '320 355 75 00', 'L-V 10:00 D-F 11:00', 'L-V 21 :00 D-F 20:00', 'ecocueros.jpg', 'ecocueros.jpg', NULL, NULL, NULL, '83.2', '68.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (28, 25, 'TALL POINT', 1, 'N1-046', '300 335 28 55', 'L-V 10:00 D-F 11:00', 'L-V 21:00 D-F 20:00', 'tall_point.jpg', 'tall_point.jpg', 'www.tall.com.co', NULL, NULL, '83.7', '70.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -351,7 +350,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(252, 23, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
+(252, 27, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
 (253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00');
 INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono`, `horario`, `horario2`, `logo`, `imagen`, `web`, `nit`, `arrendatario`, `x`, `y`, `fecha_modificacion`, `fecha_creacion`) VALUES
 (254, 15, 'GAMER''S PARADAISE', 2, 'N2-027', NULL, 'L-S 11:00  D-F 11:00 ', 'L-S 20:00  D-F 19:00', 'gamers.jpg', 'gamers.jpg', NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
