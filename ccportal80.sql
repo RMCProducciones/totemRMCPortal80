@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-09-2016 a las 09:41:19
+-- Tiempo de generación: 24-10-2016 a las 08:53:20
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -350,7 +350,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (249, 33, 'PERSONALIZA TU GORRA', 1, 'N1-K12', NULL, NULL, NULL, 'personaliza_gorra.jpg', 'personaliza_gorra.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(252, 27, 'SANTANA', 1, 'N1-102', '7039728', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'santana.jpg', 'santana.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
+(252, 25, 'LILIPINK', 1, 'N1-102', '6054242 - 6702400', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'lili.jpg', 'lili.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
 (253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00');
 INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono`, `horario`, `horario2`, `logo`, `imagen`, `web`, `nit`, `arrendatario`, `x`, `y`, `fecha_modificacion`, `fecha_creacion`) VALUES
 (254, 15, 'GAMER''S PARADAISE', 2, 'N2-027', NULL, 'L-S 11:00  D-F 11:00 ', 'L-S 20:00  D-F 19:00', 'gamers.jpg', 'gamers.jpg', NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
