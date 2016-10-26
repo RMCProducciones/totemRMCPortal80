@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 24-10-2016 a las 08:53:20
+-- Tiempo de generación: 26-10-2016 a las 16:43:28
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -183,7 +183,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (68, 29, 'CHANCE PAGA TODO', 1, 'N1-136', '319 269 43 87', 'L-S 08:00 D-F 09:00', 'D-D 21:00', 'chance_paga_todo.jpg', 'chance_paga_todo.jpg', 'https://www.pagatodo.com.co/', NULL, NULL, '75.5', '75.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (69, 20, 'ZONA PHONE', 1, 'N1-137', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, NULL, '2016-07-29 00:00:00'),
 (70, 10, 'AVENA CUBANA', 1, 'N1-138', '321 985 57 18', 'L-S 08:00 D-F 09:00', 'L-S 21:00 D-F 21:00', 'avena_cubana.jpg', 'avena_cubana.jpg', 'http://www.avenacubana.com/', NULL, NULL, '55.3', '74.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(71, 10, 'JOLLY RANCHER\n', 1, 'N1-139', NULL, NULL, NULL, 'jolly.jpg', 'jolly.jpg', NULL, NULL, NULL, '57.4', '72.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(71, 13, 'DISPONIBLE', 1, 'N1-139', NULL, NULL, NULL, '', '', NULL, NULL, NULL, '57.4', '72.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (72, 25, 'LOLA PIJAMAS', 2, 'N2 010', '433 65 30 -', '11:00 a.m.', '20:30 -21: 30', 'lola_pijamas.jpg', NULL, NULL, NULL, NULL, '51.5', '29.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (73, 13, 'DISPONIBLE', 2, 'N2  011', '', '', '', '', '', '', NULL, NULL, '53.8', '29.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (74, 26, 'RATTMAN', 2, 'N2 125', '4915633 - 314 2618199', '10:30 a.m.', '20:30', 'rtm.jpg', NULL, NULL, NULL, NULL, '53.5', '54.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -286,7 +286,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (179, 2, 'OPTICENTRO', 2, 'N2-141', '4917884 - 300 8597516', '9:00 a.m.', '20:00', 'opticentro.jpg', 'opticentro.jpg', 'http://www.opticentro.co/', NULL, NULL, '69.9', '55.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (180, 10, 'MC DONALD´S', 2, 'N2-142', '312 5889515', '10:00 a.m.', '22:00 -23:00', 'mc_donalds.jpg', 'mcdonals.jpg', 'http://www.mcdonalds.com.co/', NULL, NULL, '68.4', '55.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (181, 32, 'PICOLO SHOES', 2, 'N2-146', '4903047 - 312 4926732', '10:00 a.m.', '20:30', 'piccolo_shoes.jpg', 'piccolo_shoes.jpg', NULL, NULL, NULL, '61.9', '61.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(182, 12, 'IDOLATRU PERFUMERIA', 2, 'N2-147', '4908649 - 301 7106339', '10:00 a.m.', '20:30', 'idolatru_perfumeria.jpg', 'idolatru_perfumeria.jpg', NULL, NULL, NULL, '61.6', '64.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(182, 13, '', 2, 'N2-147', '', '', '', '', '', NULL, NULL, NULL, '61.6', '64.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (183, 32, 'SMITH SHOES', 2, 'N2-148', '5381209 -', '10:00 a.m.', '20:00', 'smith_shoes.jpg', 'smith_shoes.jpg', 'http://www.smithshoes.com.co/', NULL, NULL, '61.0', '66.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (184, 30, 'JOYERIA STEFANY', 2, 'N2-150', '310 7995591', '11:00 a.m.', '20:00', 'joyeria_stefanay.jpg', NULL, NULL, NULL, NULL, '65.0', '61.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (186, 13, 'DISPONIBLE', 3, 'N3 051', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '64.9', '82.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -334,7 +334,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (232, 10, 'SANDWICH GOURMET', 3, 'N3-047', '4911416 - 316 6956855', '12:OO m', '22:00', 'sandwich_gourmet.jpg', 'sandwich_gourmet.jpg', 'www.Sandwishgourmet.co', NULL, NULL, '63.0', '75.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (234, 10, 'RESTAURANTE BIEN CHINO', 3, 'N3-049', '320 2830089', '11:00 a.m.', '9:30', 'bien_chino.jpg', 'restaurante_bien_chino.jpg', NULL, NULL, NULL, '64.3', '79.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (235, 10, 'BIG QATE', 3, 'N3-050', 'Remodelacion', 'Remodelacion', 'Remodelacion', 'big_quate.jpg', 'big_qate.jpg', NULL, NULL, NULL, '64.5', '81.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(236, 13, 'DISPONIBLE', 3, 'N3-051', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '64.9', '82.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(236, 10, 'NATIVOS', 3, 'N3-051', NULL, '11:00 a.m.', '21:00', 'nativos.jpg', 'nativos.jpg', 'www.nativosbebidas.com', NULL, NULL, '64.9', '82.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (237, 1, 'YAMILE HUMAR', 3, 'N3-052', '3404839 - 311 4490874', '11:00 a.m.', '8:30 p.m.', 'yamile_humar.jpg', 'tienda_naturista.jpg', 'http://cosmeticoshumar.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (238, 33, 'DECAMERON', 1, 'N1-K01', NULL, NULL, NULL, 'decameron.jpg', 'decameron.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (239, 33, 'KIA', 1, 'N1-K02', NULL, NULL, NULL, 'kia.jpg', 'kia.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
