@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-10-2016 a las 16:43:28
+-- Tiempo de generación: 27-10-2016 a las 16:00:57
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -286,7 +286,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (179, 2, 'OPTICENTRO', 2, 'N2-141', '4917884 - 300 8597516', '9:00 a.m.', '20:00', 'opticentro.jpg', 'opticentro.jpg', 'http://www.opticentro.co/', NULL, NULL, '69.9', '55.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (180, 10, 'MC DONALD´S', 2, 'N2-142', '312 5889515', '10:00 a.m.', '22:00 -23:00', 'mc_donalds.jpg', 'mcdonals.jpg', 'http://www.mcdonalds.com.co/', NULL, NULL, '68.4', '55.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (181, 32, 'PICOLO SHOES', 2, 'N2-146', '4903047 - 312 4926732', '10:00 a.m.', '20:30', 'piccolo_shoes.jpg', 'piccolo_shoes.jpg', NULL, NULL, NULL, '61.9', '61.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(182, 13, '', 2, 'N2-147', '', '', '', '', '', NULL, NULL, NULL, '61.6', '64.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(182, 12, 'IDOLATRU PERFUMERIA', 2, 'N2-147', '4908649', '', '', 'idolatru_perfumeria.jpg', 'idolatru_perfumeria.jpg', NULL, NULL, NULL, '61.6', '64.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (183, 32, 'SMITH SHOES', 2, 'N2-148', '5381209 -', '10:00 a.m.', '20:00', 'smith_shoes.jpg', 'smith_shoes.jpg', 'http://www.smithshoes.com.co/', NULL, NULL, '61.0', '66.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (184, 30, 'JOYERIA STEFANY', 2, 'N2-150', '310 7995591', '11:00 a.m.', '20:00', 'joyeria_stefanay.jpg', NULL, NULL, NULL, NULL, '65.0', '61.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (186, 13, 'DISPONIBLE', 3, 'N3 051', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '64.9', '82.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
