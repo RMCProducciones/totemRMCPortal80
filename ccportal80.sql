@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-10-2016 a las 16:00:57
+-- Tiempo de generación: 03-11-2016 a las 14:37:39
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -120,7 +120,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (2, 10, 'DULCES DE COLOMBIA', 0, 'N0-002', '435 92 59  - 315 600 75 51', '11:00 a.m.', '22:00', 'dulces_colombia.jpg', 'dulces_colombia.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (3, 10, 'AMARETO CAFÉ', 0, 'N0-004', '433 00 92 - 312 305 07 35', '11:00 a.m.', '22:00', 'amareto_cafe.jpg', 'amaretto_cafe.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (4, 12, 'FORMA TU CUERPO', 0, 'N0-006', '310 780 28 31', 'L-S 10:00 D-F 11:00', 'L-S 20:00 D-F 19:00', 'forma_tu_cuerpo.jpg', 'forma_tu_cuerpo.jpg', 'http://formatucuerpo.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(5, 19, 'CENTRO DE NUTRICION HERBALLIFE', 0, 'N0-007', '311 258 47 58', 'L-S 8:00 D-F 11:00', 'L-S 20:00 D-F 19:00', 'centro_de_nutricion_herbalife.jpg', 'herbaliffe.jpg', 'http://www.herbalife.com.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(5, 12, 'FORMA TU CUERPO', 0, 'N0-007', '310 780 28 31', 'L-S 10:00 D-F 11:00', 'L-S 20:00 D-F 19:00', 'forma_tu_cuerpo.jpg', 'forma_tu_cuerpo.jpg', 'http://formatucuerpo.com/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (6, 31, 'SAO', 1, 'N1-002', '311 853 01 37', '-', '-', 'sao.jpg', 'sao.jpg', 'http://olimpica.com.co/', NULL, NULL, '42.2', '63.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (7, 26, 'DOMÉNICO', 1, 'N1-010', '442 82 50', 'L-S10:30 D-F 11:00', 'L-S 20:30 D-F19:00', 'domenico.jpg', 'domenico.jpg', 'www.domenico.com.co', NULL, NULL, '50.6', '44.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (8, 32, 'BATA', 1, 'N1-011', '320 283 93 04', 'L-S10:30 D-F 11:00', 'L-V 20:30 D-F 20:00', 'bata.jpg\r\n', 'bata.jpg\r\n', 'http://www.bata.com.co/\r\n', NULL, 'Diana Quintero\r\n', '51.6', '41.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -199,7 +199,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (85, 13, 'DISPONIBLE', 2, 'N2-015', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '58.8', '24.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (86, 12, 'COSMETIC SHOP', 2, 'N2-016', '434 66 87 - 317 368 99 26', '11:00 AM', '20:00', 'cosmetic_shop.jpg', 'cosmetic_shop.jpg', 'http://www.cosmeticshopc.com/', NULL, NULL, '60.2', '24.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (88, 32, 'SHOKER', 2, 'N2-018', NULL, '10:00 a.m.', '21:00', 'shoker_calzado.jpg', 'shoker_calzado.jpg', NULL, NULL, NULL, '61.5', '23.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(89, 13, 'DIPONIBLE', 2, 'N2-019', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '64.1', '21.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(89, 18, 'MINI ONE', 2, 'N2-019', '320 8557105', '11:00 AM', '21:00', 'mini.jpg', 'mini.jpg', NULL, NULL, NULL, '64.1', '21.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (90, 24, 'SETENTA CUARENTA', 2, 'N2-020', '440 74 40 - 322 243 61 53', '10:30 a.m.', '20:00', 'setenta_cuarenta.jpg', 'setenta_cuarenta.jpg', NULL, NULL, NULL, '65.4', '21.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (91, 27, 'ABRIL', 2, 'N2-021', '745 1111 EXT 225', '10:30 a.m.', '20:00', 'abril.jpg', 'abril.jpg', NULL, NULL, NULL, '66.7', '20.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (92, 25, 'INTIMA SECRET-LILIPINK', 2, 'N2-022', '312 623 27 96', '11:00 a.m.', '20:30', 'intima_secret.jpg', 'lili_pink.jpg', 'http://www.lilipinkintimasecret.com/', NULL, NULL, '68.6', '18.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
