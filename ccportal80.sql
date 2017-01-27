@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-01-2017 a las 10:32:16
--- Versión del servidor: 10.1.9-MariaDB
--- Versión de PHP: 5.6.15
+-- Tiempo de generación: 26-01-2017 a las 18:39:52
+-- Versión del servidor: 10.1.19-MariaDB
+-- Versión de PHP: 7.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -203,7 +203,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (90, 24, 'SETENTA CUARENTA', 2, 'N2-020', '440 74 40 - 322 243 61 53', '10:30 a.m.', '20:00', 'setenta_cuarenta.jpg', 'setenta_cuarenta.jpg', NULL, NULL, NULL, '65.4', '21.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (91, 27, 'ABRIL', 2, 'N2-021', '745 1111 EXT 225', '10:30 a.m.', '20:00', 'abril.jpg', 'abril.jpg', NULL, NULL, NULL, '66.7', '20.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (92, 25, 'INTIMA SECRET-LILIPINK', 2, 'N2-022', '312 623 27 96', '11:00 a.m.', '20:30', 'intima_secret.jpg', 'lili_pink.jpg', 'http://www.lilipinkintimasecret.com/', NULL, NULL, '68.6', '18.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(93, 27, 'TENNIS', 2, 'N2-024', '313 224 36 44', 'L-V 10:30 D-F 11:30', '20:00', 'tennis.jpg', 'tennis.jpg', 'http://www.tennis.com.co/', NULL, NULL, '72.0', '16.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(93, 13, 'DISPONIBLE', 2, 'N2-024', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '72.0', '16.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (94, 27, 'STONES', 2, 'N2-025', '318 747 70 82', 'L-S 10:00 D-F 11:00', '20:30', 'stones.jpg', 'stones.jpg', NULL, NULL, NULL, '73.2', '24.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (95, 21, 'LIVING SPORT', 2, 'N2-026', '319 215 40 08', 'L-V 11:00 S-D-F 12:30', '20:30', 'living_sport.jpg', 'living_sport.jpg', NULL, NULL, NULL, '73.6', '26.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (97, 27, 'WEEK FASHION', 2, 'N2-028', '314 444 65 47', 'L-S 10:00 D-F 11:00', 'L-S 20:30 D-F 19:30', 'week_fashion.jpg', 'week_womans_fashion.jpg', NULL, NULL, NULL, '74.9', '30.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -256,11 +256,11 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (149, 21, 'SPORT LIFE', 2, 'N2-099', '898 53 11 EXT 207', '10:00 a.m.', '21:00', 'sport_life.jpg', 'sport_life-2.jpg', 'http://www.sportlife.com.co/', NULL, NULL, '74.2', '52.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (150, 21, 'ADIDAS', 2, 'N2-100', '491 88 19 - 312 385 88 19', '10:30 a.m.', '20:00', 'adidas.jpg', 'adidas.jpg', 'http://www.adidas.co/', NULL, NULL, '75.2', '55.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (151, 22, 'MONSTRUOS', 2, 'N2-101', '491 59 83 -', '11:00 a.m.', '20 :30', 'mountros.jpg', 'monstruos.jpg', NULL, NULL, NULL, '76.0', '57.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(152, 25, 'EXCLUSIVE BOTTINE', 2, 'N2-102', '491 76 38 - 320 435 87 99', '10:00 a.m.', '20:00', NULL, 'exclusive_bottini.jpg', 'http://www.bylagordafabiola.com.co/', NULL, NULL, '76.5', '59.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(152, 13, 'DISPONIBLE', 2, 'N2-102', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '76.5', '59.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (153, 32, 'TUAN SPORT\n', 2, 'N2-103', '', '10:00 a.m.', '21:00', 'tuan.jpg', 'tuan.jpg', NULL, NULL, NULL, '77.1', '61.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (154, 21, 'MUNDIAL STORE', 2, 'N2-104', NULL, NULL, NULL, 'mundial.jpg', 'mundial.jpg', NULL, NULL, NULL, '77.5', '63.3', NULL, '2016-07-08 00:00:00'),
 (155, 12, 'STILE SHOP', 2, 'N2-105', NULL, '10:00 a.m.', '21:00', 'stile_shop.jpg', 'stile_sport_shop.jpg', 'http://www.stilesport.com/', NULL, NULL, '78.4', '69.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(156, 25, 'TEXTILES LATINOS', 2, 'N2-106', '22709 29 - 317 477 96 78', '10:30 a.m.', '20:00', 'textiles_latinos.jpg', 'textiles_latinos.jpg', 'http://www.textileslatinos.com.co/', NULL, NULL, '75.9', '70.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(156, 13, 'DISPONIBLE', 2, 'N2-106', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '75.9', '70.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (157, 21, 'SPORT LIFE', 2, 'N2-107', '898 53 11 EXT 214', '10:00 a.m.', '21:00', 'sport_life.jpg', NULL, 'http://www.sportlife.com.co/', NULL, NULL, '73.4', '70.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (158, 21, 'PEOPLE PLAY''S', 2, 'N2-109', '7470956 - 321 489345', '10:00 a.m.', '20:30', 'people_plays.jpg', 'people_plays.jpg', 'http://peopleplays.com/', NULL, NULL, '69.3', '70.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (159, 27, 'KENZO JEANS', 2, 'N2-112', '7431154 - 313 4485600', '10:00 a.m.', '20:30', 'kenzo_jeans.jpg', 'kenzo_jeans.jpg', 'http://www.kenzojeans.com.co/', NULL, NULL, '62.7', '70.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -296,7 +296,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (192, 10, 'NICOLUKAS', 3, 'N3-006', '53 60 70 - 320 803 85 72', '09:00  10:00 am', '20:00  21:00', 'nicolukas.jpg', 'nikolucas.jpg', 'http://nicolukas.com/', NULL, NULL, '51.6', '30.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (193, 10, 'CREPES & WAFFLES', 3, 'N3-007', '314 266 96 13', '11:45', '21:00 21:30 20:30', 'crepes_waffles.jpg', 'crepes_wafles.jpg', 'http://crepesywaffles.com.co/', NULL, NULL, '55.3', '31.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (194, 29, 'WALL STREET INSTITUTE', 3, 'N3-008', '743 750 -', '5:30', '21:30', 'wall_street_english.jpg', 'wall_street_english.jpg', 'http://wse.edu.co/', NULL, NULL, '58.8', '26.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(195, 15, 'GALAXY PARK PARQUE DIVERSIONES', 3, 'N3-009', '321 463 54 15', 'L-V 13:00  S-D 11:00 am', 'L-V 20:00   S-D21:00', 'galaxy_park.jpg', 'parque_diversiones.JPG', 'http://carruseles.com.co/', NULL, NULL, '62.2', '24.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(195, 15, 'GALAXY PARK PARQUE DIVERSIONES', 3, 'N3-009', '321 463 54 15', 'L-V 13:00  S-D 11:00 am', 'L-V 20:00   S-D21:00', 'galaxy_park.jpg', 'galaxy_park.jpg', 'http://carruseles.com.co/', NULL, NULL, '62.2', '24.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (196, 8, 'CINE COLOMBIA', 3, 'N3-010', '491 76 17 - 321 440 17 67', 'L-V 12:00  S-D10:00', 'L-V 02:00  S-D 3:30 4:00 am', 'cine_colombia.jpg', 'cine_colombia.jpg', 'http://www.cinecolombia.com/', NULL, NULL, '69.0', '48.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (197, 10, 'PARRILLA LA GRILLA', 3, 'N3-011', '491 57 44 - 314 512 93 28', 'L-V 10:00  S-D 09:00', '22:00', 'parilla_la_grilla.jpg', 'parrilla_la_grilla.jpg', NULL, NULL, NULL, '62.0', '83.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (198, 10, 'SUBWAY', 3, 'N3-012', '745 17 38 - 320 8000 165', '9:00 a.m.', 'L-V 22:00  S-D 23:00', 'subway.jpg', 'subway.jpg', 'http://www.subwaycolombia.com/', NULL, NULL, '60.7', '83.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -351,9 +351,8 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (250, 33, 'ACCESORIOS ZONA PHONE', 1, 'N1-K13', NULL, NULL, NULL, 'zona_phone.jpg', 'zona_phone.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (252, 25, 'LILIPINK', 1, 'N1-102', '6054242 - 6702400', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'lili.jpg', 'lili.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
-(253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00');
-INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono`, `horario`, `horario2`, `logo`, `imagen`, `web`, `nit`, `arrendatario`, `x`, `y`, `fecha_modificacion`, `fecha_creacion`) VALUES
-(254, 15, 'GAMER''S PARADAISE', 2, 'N2-027', NULL, 'L-S 11:00  D-F 11:00 ', 'L-S 20:00  D-F 19:00', 'gamers.jpg', 'gamers.jpg', NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
+(253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
+(254, 13, 'DISPONIBLE', 2, 'N2-027', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
 
 --
 -- Índices para tablas volcadas
