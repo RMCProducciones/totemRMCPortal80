@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-03-2017 a las 16:59:01
+-- Tiempo de generación: 28-03-2017 a las 17:09:28
 -- Versión del servidor: 10.1.19-MariaDB
 -- Versión de PHP: 7.0.13
 
@@ -208,7 +208,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (95, 21, 'LIVING SPORT', 2, 'N2-026', '319 215 40 08', 'L-V 11:00 S-D-F 12:30', '20:30', 'living_sport.jpg', 'living_sport.jpg', NULL, NULL, NULL, '73.6', '26.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (97, 27, 'WEEK FASHION', 2, 'N2-028', '314 444 65 47', 'L-S 10:00 D-F 11:00', 'L-S 20:30 D-F 19:30', 'week_fashion.jpg', 'week_womans_fashion.jpg', NULL, NULL, NULL, '74.9', '30.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (98, 27, 'ROTT + CO.', 2, 'N2-029', '312 344 93 94', 'L-S 10:00 D-F10:30', 'L-S 20:30 D-F 19:30', 'root_co.jpg', 'roott_co.jpg', 'http://www.roottco.com/', NULL, NULL, '75.6', '33.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(99, 27, 'OPTICA CLAVIJO & BECERRA', 2, 'N2-031', '2272731 -3013703157', 'L-S 11:00 D-F11:30', 'L-S 21:00 D-F 21:00', 'clavijo.jpg', 'clavijo.jpg', 'opticaclavijobecerra@gmail.com', NULL, NULL, '76.3', '36.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(99, 2, 'OPTICA CLAVIJO & BECERRA', 2, 'N2-031', '2272731 -3013703157', 'L-S 11:00 D-F11:30', 'L-S 21:00 D-F 21:00', 'clavijo.jpg', 'clavijo.jpg', 'opticaclavijobecerra@gmail.com', NULL, NULL, '76.3', '36.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (100, 13, 'DISPONIBLE', 2, 'N2-032', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '76.9', '38.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (101, 27, 'DEEPOT PLAYS', 2, 'N2-033', NULL, 'L-S 10:00 D-F 10;30', 'L-S 21:30 D-F 21:00', 'deepot_plays.jpg', 'deepot_plays.jpg', 'www.deepotplays.co', NULL, NULL, '77.8', '41.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (102, 27, 'DEEPOT PLAYS', 2, 'N2-035', NULL, 'L-S 10:00 D-F 10;30', 'L-S 21:30 D-F 21:00', 'deepot_plays.jpg', NULL, 'www.deepotplays.co', NULL, NULL, '78.9', '45.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
