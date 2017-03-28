@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-01-2017 a las 18:39:52
+-- Tiempo de generación: 28-03-2017 a las 16:59:01
 -- Versión del servidor: 10.1.19-MariaDB
 -- Versión de PHP: 7.0.13
 
@@ -202,13 +202,13 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (89, 18, 'MINI ONE', 2, 'N2-019', '320 8557105', '11:00 AM', '21:00', 'mini.jpg', 'mini.jpg', NULL, NULL, NULL, '64.1', '21.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (90, 24, 'SETENTA CUARENTA', 2, 'N2-020', '440 74 40 - 322 243 61 53', '10:30 a.m.', '20:00', 'setenta_cuarenta.jpg', 'setenta_cuarenta.jpg', NULL, NULL, NULL, '65.4', '21.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (91, 27, 'ABRIL', 2, 'N2-021', '745 1111 EXT 225', '10:30 a.m.', '20:00', 'abril.jpg', 'abril.jpg', NULL, NULL, NULL, '66.7', '20.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(92, 25, 'INTIMA SECRET-LILIPINK', 2, 'N2-022', '312 623 27 96', '11:00 a.m.', '20:30', 'intima_secret.jpg', 'lili_pink.jpg', 'http://www.lilipinkintimasecret.com/', NULL, NULL, '68.6', '18.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(93, 13, 'DISPONIBLE', 2, 'N2-024', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '72.0', '16.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(94, 27, 'STONES', 2, 'N2-025', '318 747 70 82', 'L-S 10:00 D-F 11:00', '20:30', 'stones.jpg', 'stones.jpg', NULL, NULL, NULL, '73.2', '24.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(92, 25, 'DISPONIBLE', 2, 'N2-022', '', '', '', '', '', '', NULL, NULL, '68.6', '18.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(93, 13, 'INTIMA SECRET-LILIPINK', 2, 'N2-024', '312 623 27 96', '11:00 a.m.', '20:30', 'intima_secret.jpg', 'lili_pink.jpg', 'http://www.lilipinkintimasecret.com/', NULL, NULL, '72.0', '16.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(94, 13, 'DISPONIBLE', 2, 'N2-025', '', '', '', '', '', NULL, NULL, NULL, '73.2', '24.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (95, 21, 'LIVING SPORT', 2, 'N2-026', '319 215 40 08', 'L-V 11:00 S-D-F 12:30', '20:30', 'living_sport.jpg', 'living_sport.jpg', NULL, NULL, NULL, '73.6', '26.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (97, 27, 'WEEK FASHION', 2, 'N2-028', '314 444 65 47', 'L-S 10:00 D-F 11:00', 'L-S 20:30 D-F 19:30', 'week_fashion.jpg', 'week_womans_fashion.jpg', NULL, NULL, NULL, '74.9', '30.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (98, 27, 'ROTT + CO.', 2, 'N2-029', '312 344 93 94', 'L-S 10:00 D-F10:30', 'L-S 20:30 D-F 19:30', 'root_co.jpg', 'roott_co.jpg', 'http://www.roottco.com/', NULL, NULL, '75.6', '33.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(99, 27, 'MONSTER', 2, 'N2-031', NULL, NULL, NULL, 'monster.jpg', 'monster.jpg', NULL, NULL, NULL, '76.3', '36.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(99, 27, 'OPTICA CLAVIJO & BECERRA', 2, 'N2-031', '2272731 -3013703157', 'L-S 11:00 D-F11:30', 'L-S 21:00 D-F 21:00', 'clavijo.jpg', 'clavijo.jpg', 'opticaclavijobecerra@gmail.com', NULL, NULL, '76.3', '36.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (100, 13, 'DISPONIBLE', 2, 'N2-032', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '76.9', '38.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (101, 27, 'DEEPOT PLAYS', 2, 'N2-033', NULL, 'L-S 10:00 D-F 10;30', 'L-S 21:30 D-F 21:00', 'deepot_plays.jpg', 'deepot_plays.jpg', 'www.deepotplays.co', NULL, NULL, '77.8', '41.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (102, 27, 'DEEPOT PLAYS', 2, 'N2-035', NULL, 'L-S 10:00 D-F 10;30', 'L-S 21:30 D-F 21:00', 'deepot_plays.jpg', NULL, 'www.deepotplays.co', NULL, NULL, '78.9', '45.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -225,7 +225,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (113, 12, 'BELLA PIEL', 2, 'N2-048', '318 376 04 67', 'L-S 10:00 D-F 11:00', 'L-S 21:00 D-F 19:00', 'bella_piel.jpg', 'bella_piel.jpg', 'http://www.bellapiel.com.co/', NULL, NULL, '79.2', '78.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (114, 26, 'CAMISERIA EUROPEA', 2, 'N2-049', '491 27 23 - 3012626587', '10:30 a.m.', '20:30', 'camiseria_europea.jpg', 'camiseria_europea 2.jpg', 'http://camiseriaeuropea.com/', NULL, NULL, '77.6', '79.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (115, 27, 'KOBALTO', 2, 'N2-050', '433 44 66 - 310 465 45 50', '10:00 a.m.', '20:00', 'kobalto.jpg', 'kobalto.jpg', NULL, NULL, NULL, '74.8', '79.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(116, 28, 'NONO', 2, 'N2-052', '491 06 83 - 312 499 72 85', '10:30 a.m.', '20:30', 'nono.jpg', 'nono.jpg', 'http://tejidosnono.com', NULL, NULL, '72.7', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(116, 13, 'DISPONIBLE', 2, 'N2-052', '', '', '', '', '', '', NULL, NULL, '72.7', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (117, 13, 'DISPONIBLE', 2, 'N2-053', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '70.8', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (119, 11, 'AVANTEL', 2, 'N2-055', '3350350', '11:00 am', '21:00 ', 'avantel.jpg', 'avantel.jpg', 'www.avantel.co', NULL, NULL, '69.1', '79.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (121, 32, 'CALZATODO', 2, 'N2-057', '491 77 00 - 311 829 05 76', '10:00 a.m.', '20:00', 'calzatodo.jpg', 'calzatodo.jpg', NULL, NULL, NULL, '63.4', '79.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -282,7 +282,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (175, 18, 'COLCHONES COMODISIMOS', 2, 'N2-136', '4917265 - 321 3210572', '10:00 a.m.', '20:00', 'colchones_comodisimos.jpg', 'colchones_comodisimos.jpg', 'http://www.comodisimos.co/', NULL, NULL, '67.6', '43.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (176, 27, 'GROGGY - GAS', 2, 'N2-137', '2285580 - 315 203456', '10:00 a.m.', '20:30', 'groggy_gas.jpg', 'groggy.jpg', 'http://www.groggyjeans.com/', NULL, NULL, '67.7', '48.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (177, 21, 'FOUR POINT', 2, 'N2-139', '703614 - 300 6266240', '10:00 a.m.', '20:00', 'four_point.jpg', 'four_point.jpg', 'http://www.fourpoint.com.co/', NULL, NULL, '68.9', '52.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(178, 13, 'DISPONIBLE', 2, 'N2-140', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '71.1', '54.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(178, 26, 'HOOVER WINTER\n', 2, 'N2-140', NULL, NULL, NULL, 'hoover.jpg', 'hoover.jpg', NULL, NULL, NULL, '71.1', '54.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (179, 2, 'OPTICENTRO', 2, 'N2-141', '4917884 - 300 8597516', '9:00 a.m.', '20:00', 'opticentro.jpg', 'opticentro.jpg', 'http://www.opticentro.co/', NULL, NULL, '69.9', '55.0', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (180, 10, 'MC DONALD´S', 2, 'N2-142', '312 5889515', '10:00 a.m.', '22:00 -23:00', 'mc_donalds.jpg', 'mcdonals.jpg', 'http://www.mcdonalds.com.co/', NULL, NULL, '68.4', '55.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (181, 32, 'PICOLO SHOES', 2, 'N2-146', '4903047 - 312 4926732', '10:00 a.m.', '20:30', 'piccolo_shoes.jpg', 'piccolo_shoes.jpg', NULL, NULL, NULL, '61.9', '61.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -311,7 +311,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (207, 10, 'PRESTO', 3, 'N3-022', '491 7899 - 304 402 88 12', '11:00', 'L-V 22:30    S-D 23:30', 'presto.jpg', 'presto.jpg', 'www.presto.com.co', NULL, NULL, '46.9', '76.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (208, 10, 'TACOS BAR BQ', 3, 'N3-023', '70 33 237 - 312 559 53 83', '9:00 a.m.', '22:00', 'tacos_barbq.jpg', 'tacos_bar_bq.jpg', 'http://www.tacosybarbq.com/', NULL, NULL, '45.7', '75.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (209, 10, 'CALENTAO EXPRESS', 3, 'N3-024', '491 65 49 - 313 216 32 65', '11:00', '21:30', 'calentao_express.jpg', 'calentao_express.jpg', 'http://www.calentao.co/', NULL, NULL, '40.2', '73.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(210, 10, 'MONGOLIAN', 3, 'N3-025', '227 71 67 - 320 250 92 38', '11:00 a.m.', '21:30', 'mongolian.jpg', 'mongolian.jpg', 'www.mongolian.com.co', NULL, NULL, '40.9', '71.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(210, 13, '', 3, 'N3-025', '', '', '', '', '', '', NULL, NULL, '40.9', '71.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (211, 10, 'FRISBY', 3, 'N3-026', '491 21 69 - 314 717 00 90', '11:00 a.m.', '21:30', 'frisby.jpg', 'frisby.jpg', 'http://www.frisby.com.co/', NULL, NULL, '41.4', '69.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (212, 10, 'COMIDA CHINA RAPIDA', 3, 'N3-027', '491 21 69', '10:30 a.m.', '22:00', 'comida_china_gourmet.jpg', 'comida_china_restaurante.jpg', NULL, NULL, NULL, '42.1', '67.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (213, 10, 'BEEF CHORIZO', 3, 'N3-028', '2287838 - 321 431 17 45', '12:00', '22:00', 'beef_chorizo.jpg', 'beef_chorizo.jpg', NULL, NULL, NULL, '42.8', '65.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -325,7 +325,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (222, 10, 'MAITÉ', 3, 'N3-037', '491 76 60 - 301 296 27 66', '10 :00am', '20:00', 'maite_pasteleria.jpg', 'maite_pasteleria.jpg', 'http://www.maitepasteleria.com/', NULL, NULL, '61.7', '30.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (223, 10, 'PICOS', 3, 'N3-038', '4906933 - 314 440 76 95', '10:00 a.m.', '22:00', 'picos_caffe.jpg', 'picos_cafe.jpg', NULL, NULL, NULL, '62.3', '32.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (225, 10, 'POPSY', 3, 'N3-040', '317 7519307', '10:00 a.m.', '9:00 p.m.', 'popsy.jpg', 'popsy.helados.gourmet.jpg', 'http://www.heladospopsy.com/', NULL, NULL, '65.2', '38.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(226, 10, 'JUICE PLACE', 3, 'N3-041', '318 3833093', '10:30', '22:00', 'jucie_place.jpg', 'juice_place.jpg', 'www.juiceplacecolombia.com', NULL, NULL, '61.6', '64.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(226, 13, 'DISPONIBLE', 3, 'N3-041', '', '', '', '', '', '', NULL, NULL, '61.6', '64.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (227, 10, 'EMPANADAS TIPICAS', 3, 'N3-042', '2280130 - 315 8212061', '9:30 a.m.', '22:00', 'empanadas_tipicias.jpg', 'tipicas_empanadas.jpg', 'http://www.tipicasempanadas.com/', NULL, NULL, '61.1', '65.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (228, 10, 'CASA PARRILLA', 3, 'N3-043', '4917706 - 312 5587211', '11:30 a.m.', '22:00', 'casa_parilla.jpg', 'casa_parrilla_gourmet.jpg', NULL, NULL, NULL, '60.9', '67.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (229, 10, 'HAMBURGUESAS DEL RODEO', 3, 'N3-044', '5190808 -', '12:00 m', '11:00 p.m.', 'del_rodeo.jpg', 'del_rodeo_hamburguesas_de-carne.jpg', 'www.hamburguesasdelrodeo.com', NULL, NULL, '61.5', '69.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -333,7 +333,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (231, 10, 'PARRILLA Y PICADITAS', 3, 'N3-046', '4732173 - 319 3256409', '11:00 a.m.', '21:15', 'parrilla_picaditas.jpg', 'parrilla_y_picaditas.jpg', NULL, NULL, NULL, '62.5', '73.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (232, 10, 'SANDWICH GOURMET', 3, 'N3-047', '4911416 - 316 6956855', '12:OO m', '22:00', 'sandwich_gourmet.jpg', 'sandwich_gourmet.jpg', 'www.Sandwishgourmet.co', NULL, NULL, '63.0', '75.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (234, 10, 'RESTAURANTE BIEN CHINO', 3, 'N3-049', '320 2830089', '11:00 a.m.', '9:30', 'bien_chino.jpg', 'restaurante_bien_chino.jpg', NULL, NULL, NULL, '64.3', '79.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(235, 10, 'BIG QATE', 3, 'N3-050', 'Remodelacion', 'Remodelacion', 'Remodelacion', 'big_quate.jpg', 'big_qate.jpg', NULL, NULL, NULL, '64.5', '81.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(235, 13, 'DISPONIBLE', 3, 'N3-050', '', '', '', '', '', NULL, NULL, NULL, '64.5', '81.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (236, 10, 'NATIVOS', 3, 'N3-051', NULL, '11:00 a.m.', '21:00', 'nativos.jpg', 'nativos.jpg', 'www.nativosbebidas.com', NULL, NULL, '64.9', '82.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (237, 1, 'YAMILE HUMAR', 3, 'N3-052', '3404839 - 311 4490874', '11:00 a.m.', '8:30 p.m.', 'yamile_humar.jpg', 'tienda_naturista.jpg', 'http://cosmeticoshumar.co/', NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (238, 33, 'DECAMERON', 1, 'N1-K01', NULL, NULL, NULL, 'decameron.jpg', 'decameron.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
@@ -352,7 +352,7 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (251, 33, 'PRICE TRAVEL', 1, 'N1-K14', NULL, NULL, NULL, 'price_travel.jpg', 'price_travel.jpg', NULL, NULL, NULL, NULL, NULL, '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (252, 25, 'LILIPINK', 1, 'N1-102', '6054242 - 6702400', 'L-V 11:00 D-F:11:00', 'L-V: 20:00 D-F: 19:00 ', 'lili.jpg', 'lili.jpg', NULL, NULL, NULL, '54.6', '68.7', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
 (253, 12, 'CLINICA ODONTOLOGICA MARLON BECERRA', 2, 'N2-018', '7498178', 'L-V 9:00  S 8:00', 'L-V 20:00  S 19:00', 'marlon_becerra.jpg', 'marlon.becerra.jpg', 'http://www.marlonbecerracalle80.com', NULL, NULL, '62.6', '22.3', '2016-03-22 00:00:00', '2016-03-22 00:00:00'),
-(254, 13, 'DISPONIBLE', 2, 'N2-027', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
+(254, 27, 'PEOPLE + DEPORT', 2, 'N2-027', '7041197', 'L-S 11:00 D-F11:30', 'L-S 21:00 D-F 21:00', 'deport.jpg', 'deport.jpg', NULL, NULL, NULL, '74.2', '28.4', '2016-05-26 00:00:00', '2016-05-26 00:00:00');
 
 --
 -- Índices para tablas volcadas
