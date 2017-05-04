@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-03-2017 a las 17:09:28
+-- Tiempo de generación: 05-05-2017 a las 00:15:44
 -- Versión del servidor: 10.1.19-MariaDB
 -- Versión de PHP: 7.0.13
 
@@ -248,13 +248,13 @@ INSERT INTO `local` (`id`, `categoria_id`, `nombre`, `nivel`, `local`, `telefono
 (140, 26, 'DF ALBERTO VO 5', 2, 'N2-085', '490 24 33 311 890 49 57', '10:30 A M', '20:00', 'alberto_vo_5.jpg', 'alberto_vo5_df.jpg', NULL, NULL, NULL, '61.3', '28.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (141, 27, 'AFRICA GLAM', 2, 'N2-086', '318 414 82 21', '11:00 a.m.', '21:00', 'africa_glam.jpg', 'africa_glam.jpg', NULL, NULL, NULL, '62.8', '28.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (142, 27, 'HAWI STORE', 2, 'N2-087', '319 462 18 23', '10:00 a.m.', '21 :00', NULL, 'hawi_nivel2.jpg', NULL, NULL, NULL, '63.8', '27.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(144, 27, 'ATMOSPHERE', 2, 'N2-091', '491 14 91 - 311 320 55 84', '10:00 a.m.', 'L-V 21:00 D-F 20:00', NULL, NULL, NULL, NULL, NULL, '69.0', '30.06', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(144, 27, 'CASA CARDENAL TIENDA ROJA\n', 2, 'N2-091', '', '10:00 a.m.', 'L-V 21:00 D-F 20:00', 'cardenal.jpg', 'cardenal.jpg', 'www.casacardenal.com', NULL, NULL, '69.0', '30.06', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (145, 28, 'EPK', 2, 'N2-093', '441 19 57', '10:00 a.m.', '21:00', 'epk.jpg', 'epk.jpg', 'http://www.shopepk.com.co/', NULL, NULL, '69.9', '33.8', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (146, 13, 'DISPONIBLE', 2, 'N2-095', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '71.2', '41.5', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (147, 13, 'DISPONIBLE', 2, 'N2-096', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '72.4', '44.9', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (148, 18, 'COLCHONES DREAM', 2, 'N2-098', '491 22 53 - 317 506 88 65', '11:00 a.m.', '20:00', 'colchones_dream.jpg', 'colchones_dream.jpg', NULL, NULL, NULL, '73.6', '49.1', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (149, 21, 'SPORT LIFE', 2, 'N2-099', '898 53 11 EXT 207', '10:00 a.m.', '21:00', 'sport_life.jpg', 'sport_life-2.jpg', 'http://www.sportlife.com.co/', NULL, NULL, '74.2', '52.7', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
-(150, 21, 'ADIDAS', 2, 'N2-100', '491 88 19 - 312 385 88 19', '10:30 a.m.', '20:00', 'adidas.jpg', 'adidas.jpg', 'http://www.adidas.co/', NULL, NULL, '75.2', '55.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
+(150, 21, 'PRICE SHOES\n', 2, 'N2-100', '5213960 - 3218939826', '11:00 a.m.', '21:00', 'price_shoes.jpg', 'price_shoes.jpg', '', NULL, NULL, '75.2', '55.3', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (151, 22, 'MONSTRUOS', 2, 'N2-101', '491 59 83 -', '11:00 a.m.', '20 :30', 'mountros.jpg', 'monstruos.jpg', NULL, NULL, NULL, '76.0', '57.6', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (152, 13, 'DISPONIBLE', 2, 'N2-102', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '76.5', '59.4', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
 (153, 32, 'TUAN SPORT\n', 2, 'N2-103', '', '10:00 a.m.', '21:00', 'tuan.jpg', 'tuan.jpg', NULL, NULL, NULL, '77.1', '61.2', '2016-03-02 00:00:00', '2016-03-02 00:00:00'),
